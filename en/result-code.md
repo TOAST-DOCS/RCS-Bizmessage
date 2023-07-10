@@ -1,52 +1,52 @@
-## Notification > RCS Bizmessage > 결과 코드
+## Notification > RCS Bizmessage > Result Code
 
-### API 결과 코드
-| 결과 코드 | 설명 | API 응답 메시지 | 비고 |
+### API Result Code
+| Result Code | Description | API Response Message | Note |
 | --- | --- | --- | --- |
-| 0 | 성공 | Success | |
-| 400 | 사용자 오류 | Client exception | |
-| -3000 | 버튼 유효성 검사 실패 | Invalid button parameter. |  |
-| -3001 | 080 수신거부 번호 없음 | Unsubscribe number is required when send ad. | |
-| -3002 | 발송 요청 시간 오류 | sendDateTime cannot be set before now. | |
-| -3030 | MMS 가로형, 세로형 카드 수 오류 | Horizontal and vertical type can enroll only one card. | | 
-| -3031 | MMS 가로형, 세로형 제목 길이 초과 | Over horizontal and vertical type title length 30. | | 
-| -3032 | MMS 가로형, 세로형 내용 길이 초과 | Over horizontal and vertical type body length 1300. | | 
-| -3033 | MMS 슬라이드형 카드 수 오류 | Carousel type can enroll more than 3, less than 6. | | 
-| -3034 | MMS 슬라이드형 제목 길이 초과 | Over Carousel type body length 30 per card. | | 
-| -3035 | MMS 슬라이드형 내용 길이 초과 | Over Carousel type body length 60 per card. | | 
-| -4000 | 브랜드 없음 | Not exist brand. | | 
-| -4001 | 브랜드 상태 오류 | Invalid status brand. | | 
-| -4010 | 대화방(발신 번호) 없음 | Not exist chatbot. | | 
-| -4011 | 대화방(발신 번호) 상태 오류 | Invalid status chatbot. | | 
-| -4020 | 템플릿 없음 | Not exist template. | | 
-| -4021 | 템플릿 상태 오류 | Invalid status template. | | 
-| -4022 | 지원하지 않은 템플릿 | Unsupported template. | |
-| -4030 | 첨부파일 없음 | Not exist media. | | 
-| -4031 | 첨부파일 만료 | Expired media. | | 
-| -4032 | 첨부파일 타입 오류 | Invalid media type. | | 
-| -4033 | 첨부파일 크기 초과 | Exceed max file size. | | 
-| -4034 | 첨부파일 형식 오류 | Invalid media format. | | 
-| -4040 | 080 수신거부 번호 없음 | Not exist block service. | |
-| -4041 | 080 수신거부 번호 상태 오류 | Invalid status block service. | |
-| -4042 | 080 수신거부 대상 | Blocked recipient number. | |
-| -4050 | 대체 발신 번호 없음 | Not exist send number. | | 
-| -4051 | 대체 발신 번호 상태 오류 | Invalid status send number. | |
-| -5000 | 080 수신거부 번호 조회 실패 | Fail to call SMS block service API. | |
-| -5001 | 080 수신거부 대상 조회 실패 | Fail to call SMS block recipient API. | |
-| -5002 | SMS 발신 번호 조회 실패 | Fail to call SMS send number API. | |
-| -6000 | SMS 프로젝트 조회 실패 | Fail to call CAB read project API. | |
-| -6001 | SMS 프로젝트 활성화 실패 | Fail to call CAB enable project SMS API. | |
-| -7000 | 발송 조회 타입 오류 | Invalid search type on url path. (sms, lms, mms, template) | |
-| -7001 | 조회 필수 파라미터 오류 | send date time or receive date time or message id is required. | |
-| -7002 | 조회 기간 조건 오류 | send date time and receive date time cannot be requested once. | 발송 요청 시간 조건, 수신 시간 조건은 함께 사용 불가 |
-| -7003 | 조회 기간 조건 초과 | Invalid date time search parameter. | 최대 31일까지 지정 가능 |
-| -7004 | 메시지 상태 조건 오류 | Invalid message status parameter. | |
-| -8000 | 대체 발송 요청 실패 | Fail to call SMS send API. | |
-| -9999 | 내부 에러 | System error. Please inquire at support@toast.com. | |
+| 0 | Success | Success | |
+| 400 | User error | Client exception | |
+| -3000 | Button validation failed | Invalid button parameter. |  |
+| -3001 | 080 deny-to-receive number not exist | Unsubscribe number is required when sending ad. | |
+| -3002 | Send request time error | sendDateTime cannot be set to a past time. | |
+| -3030 | MMS horizontal, vertical card count error | Horizontal and vertical type can enroll only one card. | | 
+| -3031 | MMS horizontal, vertical title length exceeded | Exceeded horizontal and vertical type title length of 30. | | 
+| -3032 | MMS horizontal and vertical content length exceeded | Exceeded horizontal and vertical type body length of 1300. | | 
+| -3033 | MMS slide card count error | Carousel type can enroll more than 3 and less than 6. | | 
+| -3034 | MMS carousel title length exceeded | Exceeded carousel type body length of 30 per card. | | 
+| -3035 | MMS carousel content length exceeded | Exceeded carousel type body length of 60 per card. | | 
+| -4000 | Brand not exist | Not exist brand. | | 
+| -4001 | Brand status error | Invalid brand status. | | 
+| -4010 | No chat room (sender number) | Not exist chatbot. | | 
+| -4011 | Chat room (sender number) status error | Invalid status chatbot. | | 
+| -4020 | No template | Not exist template. | | 
+| -4021 | Template status error | Invalid template status. | | 
+| -4022 | Template not supported | Unsupported template. | |
+| -4030 | No attachments | Not exist attachments. | | 
+| -4031 | Attachment expired | Expired attachments. | | 
+| -4032 | Attachment type error | Invalid attachment type. | | 
+| -4033 | Exceeded attachment size | Exceed max file size. | | 
+| -4034 | Attachment format error | Invalid attachment format. | | 
+| -4040 | 080 deny-to-receive number not exist | Not exist deny-to-receive number. | |
+| -4041 | Error in 080 deny-to-receive number status | Invalid 080 deny-to-receive number status. | |
+| -4042 | 080 deny-to-receive number | Deny-to-receive number. | |
+| -4050 | No alternative sending number | Not exist send number. | | 
+| -4051 | Error in alternative sending number status | Invalid send number status. | |
+| -5000 | Failed to query 080 deny-to-receive number | Failed to call SMS block service API. | |
+| -5001 | Failed to query 080 deny-to-receive target | Failed to call SMS block recipient API. | |
+| -5002 | Failed to query SMS sender number | Failed to call SMS send number API. | |
+| -6000 | Failed to query SMS project | Failed to call CAB read project API. | |
+| -6001 | Failed to enable SMS project | Failed to call CAB enable project SMS API. | |
+| -7000 | Sending inquiry type error | Invalid search type on url path. (sms, lms, mms, template) | |
+| -7001 | Required parameter error | send date time or receive date time or message id is required. | |
+| -7002 | Query period condition error | send date time and receive date time cannot be requested once. | Send request time condition and receive time condition cannot be used together |
+| -7003 | Inquiry period condition exceeded | Invalid date time search parameter. | Can be specified up to 31 days |
+| -7004 | Message status condition error | Invalid message status parameter. | |
+| -8000 | Failed to request alternative sending | Fail to call SMS send API. | |
+| -9999 | Internal error | System error. Please inquire at support@toast.com. | |
 
-### 수신 결과 코드
+### Result Code of Receiving
 
-| 결과 코드 | 설명 | 비고 |
+| Result Code | Description | Note |
 | --- | --- | --- |
 | 50000 | MatchedtoNewSpecifications | | 
 | 50001 | Missing Authorization header | | 
@@ -77,7 +77,7 @@
 | 51905 | Webhook CDR Log Writing Failure | | 
 | 51906 | Invalid Webhook Url | | 
 | 51907 | Expired Webhook Message | | 
-| 51908 | Exceed Retry Count to Send Message | | 
+| 51908 | Exceeded Retry Count to Send Message | | 
 | 51909 | Non Existing Webhook Message | | 
 | 51910 | Non Existing Webhook GW Vendor | | 
 | 51911 | No Subscription | | 
@@ -89,7 +89,7 @@
 | 52006 | Brand Delete Failed | | 
 | 52007 | InvalidChatbotServiceType | | 
 | 52008 | MismatchedChatbotId | | 
-| 52016 | Message transmission time exceeding | | 
+| 52016 | Exceeded message transmission time | | 
 | 52023 | Messagebase id stopped temporarily | | 
 | 53001 | Invalid file type | | 
 | 53002 | File Attribute Error | | 
@@ -311,7 +311,7 @@
 | 42512 | Invalid button url address | | 
 | 42513 | Invalid button text | | 
 | 42514 | Duplicated message ID | | 
-| 42601 | Too Many Request | | 
+| 42601 | Too Many Requests | | 
 | 42602 | message filtered | | 
 | 45000 | Internal Server Error | | 
 | 45001 | Handle bot data error | | 

@@ -1,140 +1,137 @@
-## Notification > RCS Bizmessage > 콘솔 사용 가이드
+## Notification > RCS Bizmessage > Console Usage Guide
 
 ```
-RCS Bizmessage 서비스를 이용하려면 [콘솔 > RCS Bizmessage > 본인 인증]에서 본인 인증을 사전에 진행한 후 사용할 수 있습니다(전기통신사업법 제84조).
+To use the RCS Bizmessage service, you can use it after completing identity verification in [Console > RCS Bizmessage > Identity Verification] (Article 84 of the Telecommunications Business Act). 
 ```
 
-## 발송
+## Send
 
-* RCS Bizmessage를 발송하려면 [RCS Bizmessage 관리] 메뉴에서 브랜드 연동을 먼저 진행해야 합니다.
-* 브랜드 연동 이후 발신 브랜드와 대화방(발신번호)을 선택하여 메시지를 발송할 수 있습니다.
+* To send an RCS Bizmessage, you must first proceed with the brand linkage in the \[Manage RCS Bizmessage] menu.
+* After the brand linkage, you can send a message by selecting a brand and a chat room (sender number).
 
-### 일반 SMS 발송
-1. 발신 브랜드를 선택합니다.
-2. 대화방(발신번호)를 선택합니다.
-3. 발신 내용이 광고인지 아닌지 선택합니다. 광고인 경우 080 수신거부 번호를 선택해야 합니다.
-4. 발송 유형을 **SMS**로 선택합니다.
-5. **메시지 내용(최대 100자), 버튼(최대 1개)을 추가합니다.**
-7. 우측의 수신자 설정에서 발송할 수신 번호를 작성하고 추가 버튼을 클릭합니다.(최대 50명)
-8. 발송 버튼을 클릭합니다.
+### Send Regular SMS
+1. Select Sending brand.
+2. Select a chat room (sender number).
+3. Select whether the outgoing content is an ad or not. If this is an ad, you have to select the 080 Deny-to- receive number.
+4. Select the sending type as **SMS**.
+5. **Add message content (maximum 100 characters) and buttons (maximum one).**
+7. Under Receiver Settings on the right, create the receiver number you want to send and click the Add button (maximum 50 people)
+8. Click Send button
 
-### 일반 LMS 발송
-1. 발신 브랜드를 선택합니다.
-2. 대화방(발신번호)를 선택합니다.
-3. 발신 내용이 광고인지 아닌지 선택합니다. 광고인 경우 080 수신거부 번호를 선택해야 합니다.
-4. 발송 유형을 **LMS**로 선택합니다.
-5. **메시지 제목(최대 30자), 내용(최대 1300자), 버튼(최대 3개)을 추가합니다.**
-7. 우측의 수신자 설정에서 발송할 수신 번호를 작성하고 추가 버튼을 클릭합니다(최대 50명).
-8. 발송 버튼을 클릭합니다.
+### Send General LMS
+1. Select Sending brand.
+2. Select a chat room (sender number).
+3. Select whether the outgoing content is an ad or not. If this is an ad, you have to select the 080 Deny-to- receive number.
+4. Select the sending type as **LMS**.
+5. **Add message titles (maximum 30 characters), content (maximum 1300 characters) and buttons (maximum 3 characters).**
+7. Under Receiver Settings on the right, create the receiver number you want to send and click the Add button (maximum 50 people).
+8. Click Send button
 
-### MMS 발송
-1. 발신 브랜드를 선택합니다.
-2. 대화방(발신번호)를 선택합니다.
-3. 발신 내용이 광고인지 아닌지 선택합니다. 광고인 경우 080 수신거부 번호를 선택해야 합니다.
-4. 발송 유형을 **MMS**로 선택합니다.
-5. 상세 선택에서 **가로형 또는 세로형**을 선택합니다.
-6. **카드 별로 제목(최대 30자), 내용(최대 1300자), 이미지(최대 1개), 버튼(카드당 최대 2개)을 추가합니다.**
-9. 우측의 수신자 설정에서 발송할 수신 번호를 작성하고 추가 버튼을 클릭합니다(최대 50명).
-10. 발송 버튼을 클릭합니다.
+### Send MMS
+1. Select Sending brand.
+2. Select a chat room (sender number).
+3. Select whether the outgoing content is an ad or not. If this is an ad, you have to select the 080 Deny-to- receive number.
+4. Select the send type as **MMS**.
+5. Under Select Details, select **Horizontal or Vertical**.
+6. **Add titles (maximum 30 characters), content (maximum 1300 characters), images (maximum one) and buttons (maximum two per card).**
+9. Under Receiver Settings on the right, create the receiver number you want to send and click the Add button (maximum 50 people).
+10. Click Send button
 
-### MMS 발송(카드형)
-1. 발신 브랜드를 선택합니다.
-2. 대화방(발신번호)를 선택합니다.
-3. 발신 내용이 광고인지 아닌지 선택합니다. 광고인 경우 080 수신거부 번호를 선택해야 합니다.
-4. 발송 유형을 **MMS**로 선택합니다.
-5. 상세 선택에서 **슬라이드형과 슬라이드 크기를 선택**합니다.
-6. 메시지의 슬라이드 개수 설정합니다(최소 3개, 최대 6개).
-7. **카드 별로 제목(최대 30자), 내용(최대 30자), 이미지(최대 1개), 버튼(최대 2개)을 입력합니다.**
-8. 우측의 수신자 설정에서 발송할 수신 번호를 작성하고 추가 버튼을 클릭합니다(최대 50명).
-9. 발송 버튼을 클릭합니다.
+### Send MMS (Card Type)
+1. Select Sending brand.
+2. Select a chat room (sender number).
+3. Select whether the outgoing content is an ad or not. If this is an ad, you have to select the 080 Deny-to- receive number.
+4. Select the send type as **MMS**.
+5. Under Select Details, select **slide type and slide size**.
+6. Set the number of slides in the message (minimum 3 and maximum 6).
+7. **Enter a title (maximum 30 characters), content (maximum 30 characters), images (maximum one) and buttons (maximum two) for each card.**
+8. Under Receiver Settings on the right, create the receiver number you want to send and click the Add button (maximum 50 people).
+9. Click Send button
 
-### 템플릿 발송
-1. 발신 브랜드를 선택합니다.
-2. 대화방(발신번호)를 선택합니다.
-3. 발송 유형을 **템플릿**으로 선택합니다.
-4. 발송할 템플릿을 선택합니다.
-5. 프리 템플릿인 경우에는 보낼 메시지(최대 90자)를 작성합니다.
-6. 우측의 수신자 설정에서 발송할 수신 번호를 작성하고 추가 버튼을 클릭합니다(최대 50명).
-7. 수신자 별로 **템플릿 치환자에 맞는 값을 입력**합니다.
-8. 발송 버튼을 클릭합니다.
+### Send Template
+1. Select Sending brand.
+2. Select a chat room (sender number).
+3. Select the send type as **Template**.
+4. Select the template you want to send.
+5. If it is a free template, create a message (maximum 90 characters) to send.
+6. Under Receiver Settings on the right, create the receiver number you want to send and click the Add button (maximum 50 people).
+7. For each receiver, ** enter the appropriate value for the template replacement**.
+8. Click Send button
 
-## 발송 결과 조회
+## Retrieve Send Results 
 
-* RCS Bizmessage 발송 요청한 건들에 대해서 결과를 조회할 수 있습니다.
-* 각 항목의 조건을 설정하여 조회할 수 있습니다.
-    * 발송 유형은 필수 값입니다.
-    * 발송 일시와 수신 일시는 둘 중 하나만 조건으로 사용할 수 있습니다.
-    * 시간 조건은 최대 1달까지만 가능합니다.
+* You can retrieve the results of the RCS Bizmessage request.
+* You can set the conditions for each item to retrieve.
+    * Send type is a required value.
+    * You can use either the date and time of sending or the date and time of receipt as a condition.
+    * The time condition is available maximum one month.
 
-### 발송 결과 상태
-* 전체
-* 발송 준비: 요청은 들어갔으나 아직 발송이 진행되지 않은 상태입니다.
-* 발송 중: RCS 메시지 발송이 진행 중으로 아직 수신되지 않은 상태입니다.
-* 발송 성공: RCS 메시지 발송 요청이 정상적으로 완료되어 수신자 단말기에 메시지가 도달한 상태입니다.
-* 발송 실패: RCS 메시지 발송이 실패되어 수신자 단말기에 도달하지 못한 상태입니다.
-* 발송 취소: RCS 메시지 발송이 NHN Cloud 운영자에 의해 취소된 상태입니다.
+### Send Result Status
+* Total
+* Prepare to send: The request has been made, but the sending has not been processed yet.
+* Sending: RCS message sending is in progress and has not yet been received.
+* Sending successful: The RCS message sending request has been completed successfully and the message has been reached on the receiver device.
+* Sending failed: The Receiver device was not reached because the sending of the RCS message has failed.
+* Sending canceled: RCS messages sending has been cancelled by the NHN Cloud operator.
 
-## RCS Bizmessage 관리
+## Manage RCS Bizmessage
 
-### 브랜드 관리
-* RCS Bizmessage 서비스를 이용하기 위해서는 RCS Biz Center 가입 후 브랜드를 등록해야 합니다. [[RCS Biz Center 바로가기](https://www.rcsbizcenter.com/main)]
-    * 브랜드 등록 후 RCS Biz Center 브랜드 운영 관리 메뉴에서 ㈜ NHN Cloud를 대행사로 지정해 주세요.
-    * 브랜드 연동은 본인 인증 시 첨부한 사업자등록증의 사업자등록번호를 기준으로 연동합니다.
-* **+ 브랜드 연동** 버튼을 클릭하면 브랜드와 하위 리소스(대화방, 템플릿)들도 같이 연동됩니다.
-* 연동 후에 변경 사항이 있는 경우에는 **브랜드 연동** 버튼을 누르면 동기화가 진행됩니다.
-* 브랜드 목록에서 RCS Biz Center에 등록한 브랜드 정보들을 확인할 수 있습니다.
-    * 목록에서 확인 가능한 승인된 브랜드만 발송에 사용이 가능합니다.
-    * 승인 일시는 RCS Biz Center에서 승인된 일시를 뜻하며, 연동 일시는 해당 브랜드가 NHN Cloud의 RCS Bizmessage 서비스에 연동된 일시를 뜻합니다.
+### Brand Management
+* To use the RCS Bizmessage service, you have to register your brand after signing up for the RCS Biz Center. [[Go to the RCS Biz Center](https://www.rcsbizcenter.com/main)]
+    * After registering the brand, please designate NHN Cloud as an agency in the RCS Biz Center brand operation management menu.
+    * Brand linkage is done based on the business registration number on the attached business registration card when authenticating yourself.
+* Clicking on **+ Link Brand** button also links brands and sub-resources (chat rooms, templates).
+* If there are any changes after the interlock, press the **Link Brand** button to proceed with the synchronization.
+* You can check the brand information registered with the RCS Biz Center in the brand list.
+    * Only approved brands identified in the list can be used for sending.
+    * The date and time of approval means the date and time approved by the RCS Biz Center, and the date and time of linking means the date and time when the brand is linked to NHN Cloud's RCS Bizmessage service.
 
-### 대화방(발신번호) 조회
-* RCS Biz Center에서 대화방(발신번호)을 등록해야 합니다.
-* 브랜드 연동이 완료되면 브랜드에 등록된 대화방(발신번호) 목록을 조회할 수 있습니다.
-* 드롭박스에서 원하는 브랜드를 선택하면, 해당 브랜드에 등록된 대화방(발신번호) 목록을 조회할 수 있습니다.
+### Retrieve Chat Room (sender number)
+* You must register a chat room (sender number) in the RCS Biz Center.
+* Once the brand linkage is complete, you can look up the list of chat rooms (sender numbers) registered with the brand.
+* If you select the brand you want from the drop box, you can look up the list of chat rooms (sender numbers) registered with that brand.
 
-### 템플릿 조회
-* RCS Biz Center에서 템플릿을 등록해야 합니다.
-* 브랜드 연동이 완료되면, 브랜드에 등록된 템플릿 목록을 조회할 수 있습니다.
-* 드롭박스에서 원하는 브랜드를 선택하면, 해당 브랜드에 등록된 템플릿 목록을 조회할 수 있습니다.
+### Retrieve Template
+* You have to register the template in the RCS Biz Center.
+* Once the brand linkage is complete, you can look up the list of templates registered with the brand.
+* If you select the brand you want from the drop box, you can retrieve the list of templates registered with that brand.
 
 
-## 발송 관리
+## Manage Sending
 
-* RCS Bizmessage 서비스에서 대체 발송 설정과 080 수신거부 번호를 설정하기 위해서는 SMS 서비스를 이용해야 합니다.
-* SMS 서비스 이용 설정이 완료되면 대체 발송을 위한 발신번호 설정이 가능하고, 광고성 메시지 발송을 위한 080 수신거부 번호 목록을 조회할 수 있습니다.
+* You must use the SMS service to set alternative sending settings and 080 Deny-to-receive number in the RCS Bizmessage service.
+* Once the SMS service is set up, you can set up a sender number for alternative sending and retrieve the list of 080 Deny-to-receive numbers for sending advertising messages.
 
-### SMS 서비스 이용
-* 동일한 프로젝트에서 활성화된 SMS 서비스만 연동할 수 있습니다.
-* 토글 버튼을 이용하여 SMS 서비스 상태를 활성화 상태 또는 비활성화 상태로 전환할 수 있습니다.
-* 저장 버튼을 누르면 SMS 서비스 연동 상태가 업데이트됩니다.
+### Use SMS Service
+* Only SMS services enabled in the same project can be linked.
+* You can use the toggle button to switch the SMS service status to Active or Disabled.
+* Touch the Save button to update the SMS service linking status.
 
-### 대체 발송 설정
-* RCS Bizmessage 발송 실패 시 SMS 메시지로 대체하여 메시지를 발송할 수 있습니다.
-* 대화방(발신번호) 목록에서 설정 버튼을 누르면 대체 발송 여부와 대체 발송 발신 번호를 설정할 수 있습니다.
-    * 대체 발송 발신번호는 SMS 서비스에서 발신번호를 등록해야 설정할 수 있습니다.
-    * 발송 실패 설정을 한 대화방(발신번호)의 메시지만 LMS 또는 SMS로 대체 발송됩니다.
+### Set up Alternative Sending 
+* If you fail to send RCS Bizmessage, you can replace it with an SMS message to send a message.
+* Click the Set button in the chat room (sender number) list to set the alternative sending status and alternative sending number.
+    * Alternative sending sender numbers can only be set if they are registered with SMS service.
+    * Only messages from chat rooms (sender numbers) that have failed to send will be sent by LMS or SMS instead.
 
-### 080 수신거부 번호 조회
-* 광고성 정보를 포함한 메시지 발송 시 SMS 서비스에 등록된 080 수신거부 번호를 선택해 발송할 수 있습니다.
-* SMS 서비스에 등록된 080 수신거부 번호를 조회할 수 있습니다.
+### Retrieve 080 Deny-to-receive number
+* When sending a message with advertising information, you can select and send the 080 Deny-to-receive number registered with the SMS service.
+* You can look up the 080 Deny-to-receive number registered with the SMS service.
 
-## 본인 인증
+## Identity Verification
 
-* 전기통신사업법 84조의2 관련 개정 고시 준수를 위해 RCS Bizmessage 서비스에 본인 인증 절차가 적용되었습니다.
-* RCS Bizmessage 서비스를 이용하려면 본인 인증 절차를 필수로 진행해야 합니다. 본인 인증은 기본적으로 휴대폰 본인 인증과 회원 유형에 따른 추가 서류 심사가 필요합니다.
-  * 본인 인증을 하지 않으면 **본인 인증 탭** 이외의 기능은 모두 비활성화됩니다.
-  * RCS Bizmessage 서비스는 개인회원은 서비스를 이용할 수 없습니다.
-* 회원 가입 시 입력한 이름과 휴대폰 번호가 본인 인증 시 입력하는 정보와 일치해야 본인 인증 승인이 됩니다.
+* The identity verification process has been applied to the RCS Bizmessage service to comply with the revision notice related to Article 84-2 of the Telecommunications Business Act.
+* To use the RCS Bizmessage service, the identity verification process is required. Identity verification basically requires mobile phone identification and additional document screening according to the member type.
+  * Without identity verification, all features other than the **Identity verification tab** will be disabled.
+  * The RCS Bizmessage service is not available to individual members.
+* The name and mobile phone number entered at the time of membership must match the information entered at the time of identity verification to be approved for identity verification.
 
-### 회원 유형에 따른 필요 서류
-| 회원 유형 | 인증 방법 | 필요 서류 |
-| --- | --- | --- |
-| 사업자 대표 | 휴대폰 본인 인증 | 사업자등록증, 재직증명서 |
-| 사업자 임직원 | 휴대폰 본인 인증 | 사업자등록증, 재직증명서 |
+### Required documents according to membership type
+| Member Type | Verification Method | Required Documents | | --- | --- | --- | | Business Representative | Mobile Phone Identification | Business Registration Certificate, Certificate of Employment | Business Executives and Employees | Mobile Phone Identification | Business Registration Certificate, Certificate of Employment|
 
-### 본인 인증 절차
-1. **휴대폰 본인 인증 및 필요 서류 첨부하기**를 클릭하여 절차를 시작합니다.
-2. 개인정보 수집 이용 동의 내용을 확인한 뒤 동의합니다.
-3. 휴대폰 문자 본인 인증 또는 간편 본인 확인 인증으로 본인 인증 절차를 진행합니다.
-4. 필요한 서류가 있는 경우 서류 첨부하여 등록합니다.
-5. 운영자 검수 및 승인 절차를 대기합니다.
-6. 본인 인증 절차가 완료되면 계정에 등록된 메일로 승인 결과가 전송됩니다.
+### Identity verification process
+1. Click **Mobile Verification and Add Required Documents** to begin the process.
+2. Agree after checking the consent to collect and use personal information.
+3. Proceed with the identity verification process through mobile phone text authentication or simple identity verification.
+4. If you need any documents, register them with the documents attached.
+5. Wait for the operator inspection and approval process.
+6. Once the identity verification process is completed, the approval results will be sent to the mail registered with your account.

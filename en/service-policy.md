@@ -1,9 +1,9 @@
-## Notification > RCS Bizmessage > 서비스 정책
+## Notification > RCS Bizmessage > Service Policy
 
-### 개인정보 처리에 대한 안내
-RCS Bizmessage 서비스를 이용하는 과정에서 고객은 이용자의 개인정보를 수집할 수 있습니다. 따라서 본 서비스를 이용하는 고객은 개인정보보호법에 따라 이용자에게 법적 고지사항을 알리고 동의를 받아야 합니다. 또한, 이 과정에서 고객과 NHN Cloud 간 개인정보처리에 관한 업무 위수탁 관계가 발생할 수 있습니다. 위탁자 지위에 있는 고객은 수탁자인 NHN Cloud와 별도 
-서면에 의한 위탁 계약을 체결할 수 있으며 고객이 운영하는 개인정보처리 방침에 아래 내용을 참고하여 고지할 수 있습니다.
+### Information on Processing of Personal Information
+While using the RCS Bizmessage service, the customer may collect personal information of their users. Therefore, the customer of this service must inform a legal notice to their users as per the Personal Information Protection Act and acquire their consent regarding the matter. Also during this process, work consignment relation regarding the processing of personal information may arise between the customer and NHN Cloud. 
+The customer who assumes the position of consignor may enter into a consignment contract with the consignee, NHN Cloud, separately in writing, and post a privacy policy notice by referencing the following.
 
-[예시]
-- 수탁 업체: 엔에이치엔클라우드㈜
-- 위탁 업무의 내용: RCS Bizmessage 서비스 제공 업무
+[Example]
+- Consignee: NHN Cloud Corp.
+- Consignment Description: Providing RCS Bizmessage service
