@@ -12,7 +12,7 @@ To use the RCS Bizmessage service, you can use it after completing identity veri
   * The RCS Bizmessage service is not available to individual members.
 * The name and mobile phone number entered at the time of membership must match the information entered at the time of identity verification to be approved for identity verification.
 * Proof of employment can only be <span style="color:red;font-weight:bold">documents with the date of issuance and a stamp.<span style="color:red;font-weight:bold"><br/>
-  Make sure you <span style="color:red;font-weight:bold">mask (hide) the last 6 digits of your resident registration number<span style="color:red;font-weight:bold"> in your employment certificate. Example) 000000-0\*\*\*\*\**
+  Make sure you <span style="color:red;font-weight:bold">mask (hide) the last 6 digits of your resident registration number<span style="color:red;font-weight:bold"> in your employment certificate. Example) 000000-0\*\*\*\*\*\*
 
 ### Required documents according to membership type
 | Member Type | Verification Method | Required Documents |
@@ -73,7 +73,7 @@ You must register a chat room (sender number) in the RCS Biz Center.
 ### Register Templates
 Request to register/approve an RCS text template. Templates can only be informational messages.
 
-*  In RCS Biz Center, register a template from the **Service Management** > **Brand** > **Manage Templates** menu.
+* In RCS Biz Center, register a template from the **Service Management** > **Brand** > **Manage Templates** menu.
 * The description and style (cell) template can be pre-registered with the message content to be sent and sent after operator approval.
 * The basic (free) template can send informational messages without requiring prior registration or approval of the message to be sent.
 * The description template allows you to enter text in the form of a sentence, like a text message.
