@@ -242,3 +242,80 @@ You can utilize the button feature at the bottom of the message.
 * When sending advertising information, you <span style="color:red">must include a free unsubscribe process</span> so that recipients can unsubscribe or withdraw their consent to receive it without charge.
 * You can look up the 080 Deny-to-receive number registered with the SMS service and send messages.
 * You can see how to register for a 080 Deny-to-receive number in [Settings for 080 Deny-to-receive number](./console-guide/#080).
+
+
+{{< note >}}
+   `WaitForFirstConsumer`를 사용한다면, 노드 어피니티를 지정하기 위해서 파드 스펙에 `nodeName`을 사용하지는 않아야 한다.
+   만약 `nodeName`을 사용한다면, 스케줄러가 바이패스되고 PVC가 `pending` 상태로 있을 것이다.
+
+   대신, 아래와 같이 호스트네임을 이용하는 노드셀렉터를 사용할 수 있다.
+{{< /note >}}
+
+{{< note >}}
+볼륨 확장 기능을 사용해서 볼륨을 확장할 수 있지만, 볼륨을 축소할 수는 없다.
+{{< /note >}}
+
+
+<summary>Existing Thanos users</summary>
+
+If you have already followed our [Configuring Thanos](/install-and-configure/install/multi-cluster/thanos-setup/configuring-thanos.md) guide, you can reuse the previously created bucket configuration secret.
+
+Setting `.Values.kubecostModel.etlBucketConfigSecret=kubecost-thanos` will enable the backup feature. This will back up all ETL data to the same bucket being used by Thanos.
+
+</details>
+
+<details>
+
+
+## Quick start
+
+Request allocation data for each 24-hour period in the last three days, aggregated by namespace:
+
+{% tabs %}
+{% tab title="Request" %}
+```
+$ curl http://localhost:9090/model/allocation \
+  -d window=3d \
+  -d aggregate=namespace \
+  -d accumulate=false \
+  -d shareIdle=false \
+  -G
+```
+{% endtab %}
+
+{% tab title="Response" %}
+```
+{
+  "code": 200,
+  "data": [
+    {
+      "__idle__": { ... },
+      "default": { ... },
+      "kube-system": { ... },
+      "kubecost": { ... }
+    },
+    {
+      "__idle__": { ... },
+      "default": { ... },
+      "kube-system": { ... },
+      "kubecost": { ... }
+    },
+    {
+      "__idle__": { ... },
+      "default": { ... },
+      "kube-system": { ... },
+      "kubecost": { ... }
+    },
+    {
+      "__idle__": { ... },
+      "default": { ... },
+      "kube-system": { ... },
+      "kubecost": { ... }
+    }
+  ]
+}
+```
+{% endtab %}
+{% endtabs %}
+
+Querying for `window=3d` should return a range of four sets because the queried range will overlap with four precomputed 24-hour sets, each aligned to the configured time zone. For example, querying `window=3d` on 2021/01/04T12:00:00 will return:
