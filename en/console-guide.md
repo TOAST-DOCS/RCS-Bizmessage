@@ -59,6 +59,7 @@ After completing the RCS brand approval, set the agency to 'NHN Cloud'.
 ### Brand Management
 After setting the agency to 'NHN Cloud', link the brand in the Notification RCS console.
 
+* Brands are linked based on the business registration certificate number you attached when authenticating yourself.
 * Clicking on **+ Link Brand** button also links brands and sub-resources (chat rooms, templates).
 * If there are any changes after the interlock, press the **Link Brand** button to proceed with the synchronization.
 * You can check the brand information registered with the RCS Biz Center in the brand list.
