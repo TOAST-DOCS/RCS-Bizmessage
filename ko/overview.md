@@ -30,6 +30,7 @@ RCS Bizmessage 서비스는 RCS Bizmessage 발송 및 브랜드, 템플릿 관�
     * 고객의 애플리케이션에서 사용할 수 있는 RCS Bizmessage 발송 기능과 조회 REST API를 제공합니다.
 
 ## RCS 발송 지원 타입
+
 <table class="custom-table" style="text-align: center">
   <thead>
     <tr>
