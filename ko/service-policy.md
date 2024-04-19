@@ -129,7 +129,7 @@ RCS Bizmessage 서비스를 이용하는 과정에서 고객은 이용자의 개
     <tr>
         <td>10</td>
         <td rowspan="8">이미지<br/>템플릿</td>
-        <td>이미지 & 타이틀 강조형 (3:4)</td>
+        <td>이미지 & 타이틀 강조형(3:4)</td>
         <td>Highlighted Image n Title</td>
         <td>1</td>
         <td>500자</td>
@@ -139,7 +139,7 @@ RCS Bizmessage 서비스를 이용하는 과정에서 고객은 이용자의 개
     </tr>
     <tr>
         <td>11</td>
-        <td>이미지 & 타이틀 강조형 (1:1)</td>
+        <td>이미지 & 타이틀 강조형(1:1)</td>
         <td>Highlighted Image n Title</td>
         <td>1</td>
         <td>500자</td>
@@ -149,7 +149,7 @@ RCS Bizmessage 서비스를 이용하는 과정에서 고객은 이용자의 개
     </tr>
     <tr>
         <td>12</td>
-        <td>이미지 강조형 (3:4)</td>
+        <td>이미지 강조형(3:4)</td>
         <td>Highlighted Image</td>
         <td>1</td>
         <td>500자</td>
@@ -159,7 +159,7 @@ RCS Bizmessage 서비스를 이용하는 과정에서 고객은 이용자의 개
     </tr>
     <tr>
         <td>13</td>
-        <td>이미지 강조형 (1:1)</td>
+        <td>이미지 강조형(1:1)</td>
         <td>Highlighted Image</td>
         <td>1</td>
         <td>500자</td>
@@ -169,7 +169,7 @@ RCS Bizmessage 서비스를 이용하는 과정에서 고객은 이용자의 개
     </tr>
     <tr>
         <td>14</td>
-        <td>썸네일형 (세로)</td>
+        <td>썸네일형(세로)</td>
         <td>Thumbnail</td>
         <td>1</td>
         <td>500자</td>
@@ -179,7 +179,7 @@ RCS Bizmessage 서비스를 이용하는 과정에서 고객은 이용자의 개
     </tr>
     <tr>
         <td>15</td>
-        <td>썸네일형 (가로)</td>
+        <td>썸네일형(가로)</td>
         <td>Thumbnail</td>
         <td>1</td>
         <td>500자</td>
@@ -199,7 +199,7 @@ RCS Bizmessage 서비스를 이용하는 과정에서 고객은 이용자의 개
     </tr>
     <tr>
         <td>17</td>
-        <td>SNS형 (중간버튼)</td>
+        <td>SNS형(중간 버튼)</td>
         <td>SNS</td>
         <td>1</td>
         <td>500자</td>
