@@ -37,31 +37,13 @@ To use the RCS Bizmessage service, you can use it after completing identity veri
 
 ## Manage RCS Bizmessage
 
-### Create a brand
-To use the RCS Bizmessage service, you have to register your brand after signing up for the RCS Biz Center. [[Go to the RCS Biz Center](https://www.rcsbizcenter.com/main)]
-
-* Go to RCS Biz Center and select **Apply as Company Representative** to sign up.
-* The initial signup ID is set to admin, and a subsequent signup ID is set to corporate contact. Admins can create brands. You can change the admin.
-* An RCS brand is a corporate profile. After you create a brand, you request approval.
-* Set a representative outgoing number for your RCS brand. You can later change the representative number to a registered number.<br/>
-  When attaching a telecommunication service subscription source, the RCS branded business number and the business number specified in the telecommunication service subscription source must match. You must attach all telecommunication service subscription sources for the entered calling number.
-* An RCS manager will approve your brand, which can take 2-3 business days.
-* You can find related guides by clicking **Brand Guide**at the top of the Create a brand page.
-
-![RCS_02_20231004](https://static.toastoven.net/prod_rcs/en/RCS_02_20231004.png)
-
-### Set up a brand agency
-After completing the RCS brand approval, set the agency to 'NHN Cloud'.
-
-* In RCS Biz Center, click **Service Management** > **Brand** > **Brand Operations**, select a brand, and specify an agency from the **Manage Operations** menu.
-* Click **Add Agency Permissions**, then search for and select "NHN Cloud" in the agency name.
-
 ### Brand Management
-After setting the agency to 'NHN Cloud', link the brand in the Notification RCS console.
+Once the pre-registration is completed (approved) in RCS Biz Center, proceed to integrate with NHN Cloud Console.
+You can check the pre-registration requirements in [Preparations Before Delivery].
 
-* Brands are linked based on the business registration certificate number you attached when authenticating yourself.
+* Brand is linked based on the business registration number on the attached business registration card when authenticating yourself.
 * Clicking on **+ Link Brand** button also links brands and sub-resources (chat rooms, templates).
-* If there are any changes after the interlock, press the **Link Brand** button to proceed with the synchronization.
+* If there are any changes after the interlock, press the **+ Link Brand** button to proceed with the synchronization.
 * You can check the brand information registered with the RCS Biz Center in the brand list.
     * Only approved brands identified in the list can be used for sending.
     * The date and time of approval means the date and time approved by the RCS Biz Center, and the date and time of linking means the date and time when the brand is linked to NHN Cloud's RCS Bizmessage service.
@@ -69,32 +51,23 @@ After setting the agency to 'NHN Cloud', link the brand in the Notification RCS 
 ![RCS_03_20231004](https://static.toastoven.net/prod_rcs/en/RCS_03_20231004.png)
 
 ### Retrieve Chat Room (sender number)
-You must register a chat room (sender number) in the RCS Biz Center.
+You must register a chat room (sender number) in the RCS Biz Center. You can check the pre-registration in [Preparations Before Delivery].
 
 * In RCS Biz Center, click **Service Management** > **Brand** > **Brand Operations**, select a brand, and go to the **Manage Sender Numbers** menu to register a calling number.
 * Once the brand linkage is complete, you can look up the list of chat rooms (sender numbers) registered with the brand.
 * If you select the brand you want from the drop box, you can look up the list of chat rooms (sender numbers) registered with that brand.
 * Only sender numbers with an ‘Approved’ status are available.
 
-![RCS_04_20231004](https://static.toastoven.net/prod_rcs/en/RCS_04_20231004.png)
-
-### Register Templates
-Request to register/approve an RCS text template. Templates can only be informational messages.
-
-* In RCS Biz Center, register a template from the **Service Management** > **Brand** > **Manage Templates** menu.
-* The description and style (cell) template can be pre-registered with the message content to be sent and sent after operator approval.
-* The basic (free) template can send informational messages without requiring prior registration or approval of the message to be sent.
-* The description template allows you to enter text in the form of a sentence, like a text message.
-* The style (cell) template can be entered in rows and columns. You can set the bold, font size, alignment, font color, and add lines.
-
 ### Retrieve Template
-You have to register the template in the RCS Biz Center.
+You have to register the template in the RCS Biz Center. You can check the pre-registration in [Preparations Before Delivery].
 
 * Once the brand linkage is complete, you can look up the list of templates registered with the brand.
 * If you select the brand you want from the drop box, you can retrieve the list of templates registered with that brand.
-* If you made changes to the template in RCS Biz Center, click **Brand Management** > **Link Brand**to update it.
+* If you made changes to the template in RCS Biz Center, click **Brand Management** > **+ Link Brand**to update it.
 
-![RCS_05_20231004](https://static.toastoven.net/prod_rcs/en/RCS_05_20231004.png)
+
+
+
 
 ## Send
 
