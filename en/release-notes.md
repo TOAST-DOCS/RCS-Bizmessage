@@ -1,5 +1,10 @@
 ## Notification > RCS Bizmessage > Release Notes
 
+### August 27, 2024
+#### Feature Updates
+* [API] Enhanced validation of recipient number formats when the send API request is made
+  * For more information, see [[API Guide](./api-guide/#_1)].
+
 ### April 23, 2024
 #### Feature Updates
 * [API] Changed the update timing for resultCode from the retrieve details API response
