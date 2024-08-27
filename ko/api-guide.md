@@ -29,7 +29,7 @@ Content-Type: application/json
 | sendDateTime | String | X | 발송 희망 시간 | 형식: YYYY-MM-DD hh:mm:ss <br>현재 이전 시간 불가, 기본값: 현재 시간 |
 | brandId | String | O | 브랜드 ID |  |
 | chatbotId | String | O | 발신 번호 |  |
-| recipientNumber | String | O | 수신 번호 |  |
+| recipientNumber | String | O | 수신 번호 | 공백 불가, 입력값 예시: 01012345678, +821012345678 |
 | isAd | Boolean | X | 광고 발송 여부 | 기본값: false |
 | unsubscribeNumber | String | X | 수신 거부 번호 | 광고 여부 true인 경우 필수 |
 | body | String | O | 본문 | 최대 100자 |
@@ -108,7 +108,7 @@ Content-Type: application/json
 | sendDateTime | String | X | 발송 희망 시간 | 형식: YYYY-MM-DD hh:mm:ss <br>현재 이전 시간 불가, 기본값: 현재 시간 |
 | brandId | String | O | 브랜드 ID |  |
 | chatbotId | String | O | 발신 번호 |  |
-| recipientNumber | String | O | 수신 번호 |  |
+| recipientNumber | String | O | 수신 번호 | 공백 불가, 입력값 예시: 01012345678, +821012345678 |
 | isAd | Boolean | X | 광고 발송 여부 | 기본값: false |
 | unsubscribeNumber | String | X | 수신 거부 번호 | 광고 여부 true인 경우 필수 |
 | title | String | X | 제목 | 최대 30자 |
@@ -188,7 +188,7 @@ Content-Type: application/json
 | sendDateTime | String | X | 발송 희망 시간 | 형식: YYYY-MM-DD hh:mm:ss <br>현재 이전 시간 불가, 기본값: 현재 시간 |
 | brandId | String | O | 브랜드 ID |  |
 | chatbotId | String | O | 발신 번호 |  |
-| recipientNumber | String | O | 수신 번호 |  |
+| recipientNumber | String | O | 수신 번호 | 공백 불가, 입력값 예시: 01012345678, +821012345678 |
 | isAd | Boolean | X | 광고 발송 여부 | 기본값: false |
 | unsubscribeNumber | String | X | 수신 거부 번호 | 광고 여부 true인 경우 필수 |
 | mmsType | String | O | MMS 타입 | <ul><li>가로형(HORIZONTAL)</li><li>세로형(VERTICAL)</li><li>슬라이드 중형(CAROUSEL_MEDIUM)</li><li>슬라이드 소형(CAROUSEL_SMALL)</li></ul> |
@@ -283,7 +283,7 @@ Content-Type: application/json
 | brandId | String | O | 브랜드 ID |  |
 | chatbotId | String | O | 발신 번호 |  |
 | messagebaseId  | String | O | 템플릿 ID | |
-| recipientNumber | String | O | 수신 번호 |  |
+| recipientNumber | String | O | 수신 번호 | 공백 불가, 입력값 예시: 01012345678, +821012345678 |
 | isAd | Boolean | X | 광고 발송 여부 | 기본값: false, 이미지 템플릿의 경우에만 광고 발송 가능 |
 | unsubscribeNumber | String | X | 수신 거부 번호 | 광고 여부 true인 경우 필수 |
 | body | String | X | 본문 | 최대 90자, Free 템플릿인 경우에만 해당 |

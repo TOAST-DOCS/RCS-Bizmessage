@@ -29,7 +29,7 @@ Content-Type: application/json
 | sendDateTime | String | X | Desired Sending Time | Format: YYYY-MM-DD hh:mm:ss <br>Time before the current time unavailable, default: current time |
 | brandId | String | O | Brand ID |  |
 | chatbotId | String | O | Sender number |  |
-| recipientNumber | String | O | Recipient number |  |
+| recipientNumber | String | O | Recipient number | Space not allowed, example input: 01012345678, +821012345678 |
 | isAd | Boolean | X | Ad sending or not | Default: false |
 | unsubscribeNumber | String | X | Deny-to-receive number | Required If ad is true |
 | body | String | O | Body | Max. 100 characters, |
@@ -108,7 +108,7 @@ Content-Type: application/json
 | sendDateTime | String | X | Desired Sending Time | Format: YYYY-MM-DD hh:mm:ss <br>Time before the current time unavailable, default: current time |
 | brandId | String | O | Brand ID |  |
 | chatbotId | String | O | Sender number |  |
-| recipientNumber | String | O | Recipient number |  |
+| recipientNumber | String | O | Recipient number | Space not allowed, example input: 01012345678, +821012345678 |
 | isAd | Boolean | X | Ad sending or not | Default: false |
 | unsubscribeNumber | String | X | Deny-to-receive number | Required If ad is true |
 | title | String | X | Title | Max. 30 characters |
@@ -188,7 +188,7 @@ Content-Type: application/json
 | sendDateTime | String | X | Desired Sending Time | Format: YYYY-MM-DD hh:mm:ss <br>Time before the current time unavailable, default: current time |
 | brandId | String | O | Brand ID |  |
 | chatbotId | String | O | Sender number |  |
-| recipientNumber | String | O | Recipient number |  |
+| recipientNumber | String | O | Recipient number | Space not allowed, example input: 01012345678, +821012345678 |
 | isAd | Boolean | X | Ad sending or not | Default: false |
 | unsubscribeNumber | String | X | Deny-to-receive number | Required when ad is true |
 | mmsType | String | O | MMS type | <ul><li>Horizontal</li><li>Vertical</li><li>Slide Medium (CAROUSEL_MEDIUM)</li><li>Slide Small (CAROUSEL_SMALL)</li></ul> |
@@ -283,7 +283,7 @@ Content-Type: application/json
 | brandId | String | O | Brand ID |  |
 | chatbotId | String | O | Sender number |  |
 | messagebaseId  | String | O | Template ID | |
-| recipientNumber | String | O | Recipient number |  |
+| recipientNumber | String | O | Recipient number | Space not allowed, example input: 01012345678, +821012345678  |
 | isAd | Boolean | X | Send ads or not | Default: false, ads can only be sent for image templates |
 | unsubscribeNumber | String | X | Unsubscribe number | Required when isAd is true |
 | body | String | X | Body | Up to 90 characters, only for free templates |

@@ -29,7 +29,7 @@ Content-Type: application/json
 | sendDateTime | String | X | 送信希望時間 | 形式: YYYY-MM-DD hh:mm:ss <br>以前の時間不可、デフォルト値:現在時間 |
 | brandId | String | O | ブランドID |  |
 | chatbotId | String | O | 発信番号 |  |
-| recipientNumber | String | O | 受信番号 |  |
+| recipientNumber | String | O | 受信番号 | 空白不可、入力値例: 01012345678, +821012345678 |
 | isAd | Boolean | X | 広告送信か | デフォルト値: false |
 | unsubscribeNumber | String | X | 受信拒否番号 | 広告がTrueの場合、必須 |
 | body | String | O | 本文 | 最大100文字 |
@@ -108,7 +108,7 @@ Content-Type: application/json
 | sendDateTime | String | X | 送信希望時間 | 形式: YYYY-MM-DD hh:mm:ss <br>以前の時間不可、デフォルト値:現在時間 |
 | brandId | String | O | ブランドID |  |
 | chatbotId | String | O | 発信番号 |  |
-| recipientNumber | String | O | 受信番号 |  |
+| recipientNumber | String | O | 受信番号 | 空白不可、入力値例: 01012345678, +821012345678 |
 | isAd | Boolean | X | 広告送信か | デフォルト値: false |
 | unsubscribeNumber | String | X | 受信拒否番号 | 広告がTrueの場合、必須 |
 | title | String | X | タイトル | 最大30文字 |
@@ -188,7 +188,7 @@ Content-Type: application/json
 | sendDateTime | String | X | 送信希望時間 | 形式: YYYY-MM-DD hh:mm:ss <br>以前の時間不可、デフォルト値:現在時間 |
 | brandId | String | O | ブランドID |  |
 | chatbotId | String | O | 発信番号 |  |
-| recipientNumber | String | O | 受信番号 |  |
+| recipientNumber | String | O | 受信番号 | 空白不可、入力値例: 01012345678, +821012345678 |
 | isAd | Boolean | X | 広告送信か | デフォルト値: false |
 | unsubscribeNumber | String | X | 受信拒否番号 | 広告がTrueの場合、必須 |
 | mmsType | String | O | MMSタイプ | <ul><li>横型(HORIZONTAL)</li><li>縦型(VERTICAL)</li><li>スライド中型(CAROUSEL_MEDIUM)</li><li>スライド小型(CAROUSEL_SMALL)</li></ul> |
@@ -281,7 +281,7 @@ Content-Type: application/json
 | --- | --- | --- | --- | --- |
 | sendDateTime | String | X | 送信希望時間 | 形式: YYYY-MM-DD hh:mm:ss <br>以前の時間不可、デフォルト値:現在時間 |
 | brandId | String | O | ブランドID |  |
-| chatbotId | String | O | 発信番号 |  |
+| chatbotId | String | O | 発信番号 | 空白不可、入力値例: 01012345678, +821012345678 |
 | messagebaseId  | String | O | テンプレートID | |
 | recipientNumber | String | O | 受信番号 |  |
 | body | String | X | 本文 | 最大90文字、 Freeテンプレートの場合にのみ該当 |
