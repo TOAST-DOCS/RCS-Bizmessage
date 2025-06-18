@@ -13,11 +13,11 @@ To use the RCS Bizmessage service, you have to register your brand after signing
 ![RCS_pre_send_guide_01.png](https://static.toastoven.net/prod_rcs/ko/RCS_pre_send_guide_01.png)
 
 ### Set up a Brand Agency
-After completing the RCS brand approval, set the agency to 'NHN Cloud'.
+After completing the RCS brand approval, set the agency to '엔이치엔클라우드'.
 
 1. In RCS Biz Center, go to **Business Dashboard > Brand Dashboard > Brand Operations Management**.
 
-2. Click **Add Agency Permissions**, then search for and select "NHN Cloud" in the agency name.
+2. Click **Add Agency Permissions**, then search for and select "엔이치엔클라우드" in the agency name.
 
 ### Register a Chat Room (sender number)
 You can receive and view messages in chats in the Messages app. You can send and view messages on a per-chat basis.
