@@ -103,7 +103,7 @@ RCS Bizmessage 서비스를 이용하는 과정에서 고객은 이용자의 개
         <td>1</td>
         <td>90자</td>
         <td>2</td>
-        <td>16</td>
+        <td>16자</td>
         <td>-</td>
     </tr>
     <tr>
@@ -133,7 +133,7 @@ RCS Bizmessage 서비스를 이용하는 과정에서 고객은 이용자의 개
         <td>1</td>
         <td>90자</td>
         <td>0</td>
-        <td>0</td>
+        <td>-</td>
         <td>-</td>
     </tr>
     <tr>
@@ -185,7 +185,7 @@ RCS Bizmessage 서비스를 이용하는 과정에서 고객은 이용자의 개
         <td>1</td>
         <td>500자</td>
         <td>2</td>
-        <td>16</td>
+        <td>16자</td>
         <td>Vertical(900x560)</td>
     </tr>
     <tr>
