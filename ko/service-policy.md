@@ -35,6 +35,7 @@ RCS Bizmessage 서비스를 이용하는 과정에서 고객은 이용자의 개
         <td>카드별</td>
         <td>버튼</td>
         <td>이미지</td>
+        <td>비고</td>
     </tr>
     <tr>
         <td>1</td>
@@ -46,6 +47,7 @@ RCS Bizmessage 서비스를 이용하는 과정에서 고객은 이용자의 개
         <td>1</td>
         <td>17</td>
         <td>-</td>
+        <td>-</td>
     </tr>
     <tr>
         <td>2</td>
@@ -56,6 +58,7 @@ RCS Bizmessage 서비스를 이용하는 과정에서 고객은 이용자의 개
         <td>1300</td>
         <td>3</td>
         <td>17</td>
+        <td>-</td>
         <td>-</td>
     </tr>
     <tr>
@@ -68,6 +71,7 @@ RCS Bizmessage 서비스를 이용하는 과정에서 고객은 이용자의 개
         <td>2</td>
         <td>17</td>
         <td>Tall(568x528)</td>
+        <td>-</td>
     </tr>
     <tr>
         <td>4</td>
@@ -78,6 +82,7 @@ RCS Bizmessage 서비스를 이용하는 과정에서 고객은 이용자의 개
         <td>2</td>
         <td>17</td>
         <td>Medium(568x336)</td>
+        <td>-</td>
     </tr>
     <tr>
         <td>5</td>
@@ -89,6 +94,7 @@ RCS Bizmessage 서비스를 이용하는 과정에서 고객은 이용자의 개
         <td>2</td>
         <td>17</td>
         <td rowspan="5">-</td>
+        <td>-</td>
     </tr>
     <tr>
         <td>6</td>
@@ -98,6 +104,7 @@ RCS Bizmessage 서비스를 이용하는 과정에서 고객은 이용자의 개
         <td>90자</td>
         <td>2</td>
         <td>16</td>
+        <td>-</td>
     </tr>
     <tr>
         <td>7</td>
@@ -107,6 +114,7 @@ RCS Bizmessage 서비스를 이용하는 과정에서 고객은 이용자의 개
         <td>90자</td>
         <td>2</td>
         <td>17</td>
+        <td>-</td>
     </tr>
     <tr>
         <td>8</td>
@@ -116,6 +124,7 @@ RCS Bizmessage 서비스를 이용하는 과정에서 고객은 이용자의 개
         <td>90자</td>
         <td>2</td>
         <td>16</td>
+        <td>-</td>
     </tr>
     <tr>
         <td>9</td>
@@ -125,6 +134,7 @@ RCS Bizmessage 서비스를 이용하는 과정에서 고객은 이용자의 개
         <td>90자</td>
         <td>0</td>
         <td>0</td>
+        <td>-</td>
     </tr>
     <tr>
         <td>10</td>
@@ -136,6 +146,7 @@ RCS Bizmessage 서비스를 이용하는 과정에서 고객은 이용자의 개
         <td>2</td>
         <td>16</td>
         <td>Long(900x1200)</td>
+        <td rowspan="8">금융준법고지 필드 추가(2025. 04. 25) 전 생성된 템플릿만 지원</td>
     </tr>
     <tr>
         <td>11</td>
