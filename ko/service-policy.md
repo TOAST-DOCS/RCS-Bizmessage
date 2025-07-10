@@ -66,7 +66,7 @@ RCS Bizmessage 서비스를 이용하는 과정에서 고객은 이용자의 개
         <td rowspan="2">MMS</td>
         <td>세로형(Tall)</td>
         <td>Standalone Media Top</td>
-        <td>1</td>
+        <td>3~6</td>
         <td>1300자</td>
         <td>2</td>
         <td>17자</td>
@@ -77,7 +77,7 @@ RCS Bizmessage 서비스를 이용하는 과정에서 고객은 이용자의 개
         <td>4</td>
         <td>세로형(Medium)</td>
         <td>Standalone Media Top</td>
-        <td>1</td>
+        <td>3~6</td>
         <td>1300자</td>
         <td>2</td>
         <td>17자</td>
