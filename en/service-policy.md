@@ -36,9 +36,10 @@ The customer who assumes the position of consignor may enter into a consignment 
         <td>Card type</td>
         <td>Number of cards</td>
         <td>Maximum message length</td>
-        <td>By card</td>
-        <td>Button</td>
+        <td>Number of buttons per card</td>
+        <td>Button name maximum length</td>
         <td>Image</td>
+        <td>Note</td>
     </tr>
     <tr>
         <td>1</td>
@@ -46,9 +47,10 @@ The customer who assumes the position of consignor may enter into a consignment 
         <td>SMS</td>
         <td>Standalone</td>
         <td>1</td>
-        <td>100</td>
+        <td>100 characters</td>
         <td>1</td>
-        <td>17</td>
+        <td>17 characters</td>
+        <td>-</td>
         <td>-</td>
     </tr>
     <tr>
@@ -57,9 +59,10 @@ The customer who assumes the position of consignor may enter into a consignment 
         <td>LMS</td>
         <td>Standalone</td>
         <td>1</td>
-        <td>1300</td>
+        <td>1300 characters</td>
         <td>3</td>
-        <td>17</td>
+        <td>17 characters</td>
+        <td>-</td>
         <td>-</td>
     </tr>
     <tr>
@@ -67,21 +70,23 @@ The customer who assumes the position of consignor may enter into a consignment 
         <td rowspan="2">MMS</td>
         <td>Portrait (Tall)</td>
         <td>Standalone Media Top</td>
-        <td>1</td>
-        <td>1300</td>
+        <td>3~6</td>
+        <td>1300 characters</td>
         <td>2</td>
-        <td>17</td>
+        <td>17 characters</td>
         <td>Tall (568x528)</td>
+        <td>-</td>
     </tr>
     <tr>
         <td>4</td>
         <td>Portrait (Medium)</td>
         <td>Standalone Media Top</td>
-        <td>1</td>
-        <td>1300</td>
+        <td>3~6</td>
+        <td>1300 characters</td>
         <td>2</td>
-        <td>17</td>
+        <td>17 characters</td>
         <td>Medium(568x336)</td>
+        <td>-</td>
     </tr>
     <tr>
         <td>5</td>
@@ -91,8 +96,9 @@ The customer who assumes the position of consignor may enter into a consignment 
         <td>1</td>
         <td>90 characters</td>
         <td>2</td>
-        <td>17</td>
+        <td>17 characters</td>
         <td rowspan="5">-</td>
+        <td>-</td>
     </tr>
     <tr>
         <td>6</td>
@@ -101,7 +107,8 @@ The customer who assumes the position of consignor may enter into a consignment 
         <td>1</td>
         <td>90 characters</td>
         <td>2</td>
-        <td>16</td>
+        <td>16 characters</td>
+        <td>-</td>
     </tr>
     <tr>
         <td>7</td>
@@ -110,7 +117,8 @@ The customer who assumes the position of consignor may enter into a consignment 
         <td>1</td>
         <td>90 characters</td>
         <td>2</td>
-        <td>17</td>
+        <td>17 characters</td>
+        <td>-</td>
     </tr>
     <tr>
         <td>8</td>
@@ -119,7 +127,8 @@ The customer who assumes the position of consignor may enter into a consignment 
         <td>1</td>
         <td>90 characters</td>
         <td>2</td>
-        <td>16</td>
+        <td>16 characters</td>
+        <td>-</td>
     </tr>
     <tr>
         <td>9</td>
@@ -128,7 +137,8 @@ The customer who assumes the position of consignor may enter into a consignment 
         <td>1</td>
         <td>90 characters</td>
         <td>0</td>
-        <td>0</td>
+        <td>-</td>
+        <td>-</td>
     </tr>
     <tr>
         <td>10</td>
@@ -138,8 +148,9 @@ The customer who assumes the position of consignor may enter into a consignment 
         <td>1</td>
         <td>500 characters</td>
         <td>2</td>
-        <td>16</td>
+        <td>16 characters</td>
         <td>Long(900x1200)</td>
+        <td rowspan="8">Only templates created before the addition of the Financial Compliance Notice field (April 25, 2025) are supported.</td>
     </tr>
     <tr>
         <td>11</td>
@@ -148,7 +159,7 @@ The customer who assumes the position of consignor may enter into a consignment 
         <td>1</td>
         <td>500 characters</td>
         <td>2</td>
-        <td>16</td>
+        <td>16 characters</td>
         <td>Square(900x900)</td>
     </tr>
     <tr>
@@ -158,7 +169,7 @@ The customer who assumes the position of consignor may enter into a consignment 
         <td>1</td>
         <td>500 characters</td>
         <td>2</td>
-        <td>16</td>
+        <td>16 characters</td>
         <td>Long(900x1200)</td>
     </tr>
     <tr>
@@ -168,7 +179,7 @@ The customer who assumes the position of consignor may enter into a consignment 
         <td>1</td>
         <td>500 characters</td>
         <td>2</td>
-        <td>16</td>
+        <td>16 characters</td>
         <td>Square(900x900)</td>
     </tr>
     <tr>
@@ -178,7 +189,7 @@ The customer who assumes the position of consignor may enter into a consignment 
         <td>1</td>
         <td>500 characters</td>
         <td>2</td>
-        <td>16</td>
+        <td>16 characters</td>
         <td>Vertical (900x560)</td>
     </tr>
     <tr>
@@ -188,7 +199,7 @@ The customer who assumes the position of consignor may enter into a consignment 
         <td>1</td>
         <td>500 characters</td>
         <td>2</td>
-        <td>16</td>
+        <td>16 characters</td>
         <td>Horizontal(900x560)</td>
     </tr>
     <tr>
@@ -198,7 +209,7 @@ The customer who assumes the position of consignor may enter into a consignment 
         <td>1</td>
         <td>500 characters</td>
         <td>2</td>
-        <td>16</td>
+        <td>16 characters</td>
         <td>Square(900x900)</td>
     </tr>
     <tr>
@@ -208,7 +219,7 @@ The customer who assumes the position of consignor may enter into a consignment 
         <td>1</td>
         <td>500 characters</td>
         <td>2</td>
-        <td>16</td>
+        <td>16 characters</td>
         <td>Rectangle(900x560)</td>
     </tr>
 </table>
