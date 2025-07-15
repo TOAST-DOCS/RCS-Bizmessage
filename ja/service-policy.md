@@ -32,9 +32,10 @@ RCS Bizmessageサービスを利用する過程で、顧客は利用者の個人
         <td>カードタイプ</td>
         <td>カード数</td>
         <td>メッセージ最大長さ</td>
-        <td>カード別</td>
-        <td>ボタン</td>
+        <td>カード別ボタン数</td>
+        <td>ボタン名の最大長さ</td>
         <td>イメージ</td>
+        <td>備考</td>        
     </tr>
     <tr>
         <td>1</td>
@@ -42,9 +43,10 @@ RCS Bizmessageサービスを利用する過程で、顧客は利用者の個人
         <td>SMS</td>
         <td>Standalone</td>
         <td>1</td>
-        <td>100</td>
+        <td>100文字</td>
         <td>1</td>
-        <td>17</td>
+        <td>17文字</td>
+        <td>-</td>
         <td>-</td>
     </tr>
     <tr>
@@ -53,9 +55,10 @@ RCS Bizmessageサービスを利用する過程で、顧客は利用者の個人
         <td>LMS</td>
         <td>Standalone</td>
         <td>1</td>
-        <td>1300</td>
+        <td>1300文字</td>
         <td>3</td>
-        <td>17</td>
+        <td>17文字</td>
+        <td>-</td>
         <td>-</td>
     </tr>
     <tr>
@@ -63,21 +66,23 @@ RCS Bizmessageサービスを利用する過程で、顧客は利用者の個人
         <td rowspan="2">MMS</td>
         <td>縦型(Tall)</td>
         <td>Standalone Media Top</td>
-        <td>1</td>
-        <td>1300</td>
+        <td>3~6</td>
+        <td>1300文字</td>
         <td>2</td>
-        <td>17</td>
+        <td>17文字</td>
         <td>Tall(568x528)</td>
+        <td>-</td>        
     </tr>
     <tr>
         <td>4</td>
         <td>縦型(Medium)</td>
         <td>Standalone Media Top</td>
-        <td>1</td>
-        <td>1300</td>
+        <td>3~6</td>
+        <td>1300文字</td>
         <td>2</td>
-        <td>17</td>
+        <td>17文字</td>
         <td>Medium(568x336)</td>
+        <td>-</td>        
     </tr>
     <tr>
         <td>5</td>
@@ -87,8 +92,9 @@ RCS Bizmessageサービスを利用する過程で、顧客は利用者の個人
         <td>1</td>
         <td>90文字</td>
         <td>2</td>
-        <td>17</td>
+        <td>17文字</td>
         <td rowspan="5">-</td>
+        <td>-</td>        
     </tr>
     <tr>
         <td>6</td>
@@ -97,7 +103,8 @@ RCS Bizmessageサービスを利用する過程で、顧客は利用者の個人
         <td>1</td>
         <td>90文字</td>
         <td>2</td>
-        <td>16</td>
+        <td>16文字</td>
+        <td>-</td>
     </tr>
     <tr>
         <td>7</td>
@@ -106,7 +113,8 @@ RCS Bizmessageサービスを利用する過程で、顧客は利用者の個人
         <td>1</td>
         <td>90文字</td>
         <td>2</td>
-        <td>17</td>
+        <td>17文字</td>
+        <td>-</td>
     </tr>
     <tr>
         <td>8</td>
@@ -115,7 +123,8 @@ RCS Bizmessageサービスを利用する過程で、顧客は利用者の個人
         <td>1</td>
         <td>90文字</td>
         <td>2</td>
-        <td>16</td>
+        <td>16文字</td>
+        <td>-</td>
     </tr>
     <tr>
         <td>9</td>
@@ -124,7 +133,8 @@ RCS Bizmessageサービスを利用する過程で、顧客は利用者の個人
         <td>1</td>
         <td>90文字</td>
         <td>0</td>
-        <td>0</td>
+        <td>-</td>
+        <td>-</td>
     </tr>
     <tr>
         <td>10</td>
@@ -134,8 +144,9 @@ RCS Bizmessageサービスを利用する過程で、顧客は利用者の個人
         <td>1</td>
         <td>500文字</td>
         <td>2</td>
-        <td>16</td>
+        <td>16文字</td>
         <td>Long(900x1200)</td>
+        <td rowspan="8">金融コンプライアンス告知フィールド追加(2025. 04. 25)前に作成されたテンプレートのみサポート</td>        
     </tr>
     <tr>
         <td>11</td>
@@ -144,7 +155,7 @@ RCS Bizmessageサービスを利用する過程で、顧客は利用者の個人
         <td>1</td>
         <td>500文字</td>
         <td>2</td>
-        <td>16</td>
+        <td>16文字</td>
         <td>Square(900x900)</td>
     </tr>
     <tr>
@@ -154,7 +165,7 @@ RCS Bizmessageサービスを利用する過程で、顧客は利用者の個人
         <td>1</td>
         <td>500文字</td>
         <td>2</td>
-        <td>16</td>
+        <td>16文字</td>
         <td>Long(900x1200)</td>
     </tr>
     <tr>
@@ -164,7 +175,7 @@ RCS Bizmessageサービスを利用する過程で、顧客は利用者の個人
         <td>1</td>
         <td>500文字</td>
         <td>2</td>
-        <td>16</td>
+        <td>16文字</td>
         <td>Square(900x900)</td>
     </tr>
     <tr>
@@ -174,7 +185,7 @@ RCS Bizmessageサービスを利用する過程で、顧客は利用者の個人
         <td>1</td>
         <td>500文字</td>
         <td>2</td>
-        <td>16</td>
+        <td>16文字</td>
         <td>Vertical(900x560)</td>
     </tr>
     <tr>
@@ -184,7 +195,7 @@ RCS Bizmessageサービスを利用する過程で、顧客は利用者の個人
         <td>1</td>
         <td>500文字</td>
         <td>2</td>
-        <td>16</td>
+        <td>16文字</td>
         <td>Horizontal(900x560)</td>
     </tr>
     <tr>
@@ -194,7 +205,7 @@ RCS Bizmessageサービスを利用する過程で、顧客は利用者の個人
         <td>1</td>
         <td>500文字</td>
         <td>2</td>
-        <td>16</td>
+        <td>16文字</td>
         <td>Square(900x900)</td>
     </tr>
     <tr>
@@ -204,7 +215,7 @@ RCS Bizmessageサービスを利用する過程で、顧客は利用者の個人
         <td>1</td>
         <td>500文字</td>
         <td>2</td>
-        <td>16</td>
+        <td>16文字</td>
         <td>Rectangle(900x560)</td>
     </tr>
 </table>
