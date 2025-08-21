@@ -146,7 +146,7 @@ RCS Bizmessageサービスを利用する過程で、顧客は利用者の個人
         <td>2</td>
         <td>16文字</td>
         <td>Long(900x1200)</td>
-        <td rowspan="8">金融コンプライアンス告知フィールド追加(2025. 04. 25)前に作成されたテンプレートのみサポート</td>        
+        <td>-</td>
     </tr>
     <tr>
         <td>11</td>
@@ -157,6 +157,7 @@ RCS Bizmessageサービスを利用する過程で、顧客は利用者の個人
         <td>2</td>
         <td>16文字</td>
         <td>Square(900x900)</td>
+        <td>-</td>
     </tr>
     <tr>
         <td>12</td>
@@ -167,6 +168,7 @@ RCS Bizmessageサービスを利用する過程で、顧客は利用者の個人
         <td>2</td>
         <td>16文字</td>
         <td>Long(900x1200)</td>
+        <td>-</td>
     </tr>
     <tr>
         <td>13</td>
@@ -177,6 +179,7 @@ RCS Bizmessageサービスを利用する過程で、顧客は利用者の個人
         <td>2</td>
         <td>16文字</td>
         <td>Square(900x900)</td>
+        <td>-</td>
     </tr>
     <tr>
         <td>14</td>
@@ -187,6 +190,7 @@ RCS Bizmessageサービスを利用する過程で、顧客は利用者の個人
         <td>2</td>
         <td>16文字</td>
         <td>Vertical(900x560)</td>
+        <td>-</td>
     </tr>
     <tr>
         <td>15</td>
@@ -197,6 +201,7 @@ RCS Bizmessageサービスを利用する過程で、顧客は利用者の個人
         <td>2</td>
         <td>16文字</td>
         <td>Horizontal(900x560)</td>
+        <td>-</td>
     </tr>
     <tr>
         <td>16</td>
@@ -207,6 +212,7 @@ RCS Bizmessageサービスを利用する過程で、顧客は利用者の個人
         <td>2</td>
         <td>16文字</td>
         <td>Square(900x900)</td>
+        <td>-</td>
     </tr>
     <tr>
         <td>17</td>
@@ -217,6 +223,7 @@ RCS Bizmessageサービスを利用する過程で、顧客は利用者の個人
         <td>2</td>
         <td>16文字</td>
         <td>Rectangle(900x560)</td>
+        <td>-</td>
     </tr>
 </table>
 
