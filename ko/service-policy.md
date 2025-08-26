@@ -146,7 +146,7 @@ RCS Bizmessage 서비스를 이용하는 과정에서 고객은 이용자의 개
         <td>2</td>
         <td>16자</td>
         <td>Long(900x1200)</td>
-        <td rowspan="8">금융준법고지 필드 추가(2025. 04. 25) 전 생성된 템플릿만 지원</td>
+        <td>-</td>
     </tr>
     <tr>
         <td>11</td>
@@ -157,6 +157,7 @@ RCS Bizmessage 서비스를 이용하는 과정에서 고객은 이용자의 개
         <td>2</td>
         <td>16자</td>
         <td>Square(900x900)</td>
+        <td>-</td>
     </tr>
     <tr>
         <td>12</td>
@@ -167,6 +168,7 @@ RCS Bizmessage 서비스를 이용하는 과정에서 고객은 이용자의 개
         <td>2</td>
         <td>16자</td>
         <td>Long(900x1200)</td>
+        <td>-</td>
     </tr>
     <tr>
         <td>13</td>
@@ -177,6 +179,7 @@ RCS Bizmessage 서비스를 이용하는 과정에서 고객은 이용자의 개
         <td>2</td>
         <td>16자</td>
         <td>Square(900x900)</td>
+        <td>-</td>
     </tr>
     <tr>
         <td>14</td>
@@ -187,6 +190,7 @@ RCS Bizmessage 서비스를 이용하는 과정에서 고객은 이용자의 개
         <td>2</td>
         <td>16자</td>
         <td>Vertical(900x560)</td>
+        <td>-</td>
     </tr>
     <tr>
         <td>15</td>
@@ -197,6 +201,7 @@ RCS Bizmessage 서비스를 이용하는 과정에서 고객은 이용자의 개
         <td>2</td>
         <td>16자</td>
         <td>Horizontal(900x560)</td>
+        <td>-</td>
     </tr>
     <tr>
         <td>16</td>
@@ -207,6 +212,7 @@ RCS Bizmessage 서비스를 이용하는 과정에서 고객은 이용자의 개
         <td>2</td>
         <td>16자</td>
         <td>Square(900x900)</td>
+        <td>-</td>
     </tr>
     <tr>
         <td>17</td>
@@ -217,6 +223,7 @@ RCS Bizmessage 서비스를 이용하는 과정에서 고객은 이용자의 개
         <td>2</td>
         <td>16자</td>
         <td>Rectangle(900x560)</td>
+        <td>-</td>
     </tr>
 </table>
 

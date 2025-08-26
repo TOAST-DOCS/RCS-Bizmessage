@@ -1,5 +1,10 @@
 ## Notification > RCS Bizmessage > Release Notes
 
+### 2025. 08. 26.
+#### 功能改善
+* [API/Console] 支持包含金融合规告知字段的图像模板
+  * 支持包含金融合规告知字段的图像模板的集成和发送。
+
 ### September 12, 2023
 #### Added Features
 * [API] Added Query Details API
