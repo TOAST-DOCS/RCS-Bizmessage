@@ -150,7 +150,7 @@ The customer who assumes the position of consignor may enter into a consignment 
         <td>2</td>
         <td>16 characters</td>
         <td>Long(900x1200)</td>
-        <td rowspan="8">Only templates created before the addition of the Financial Compliance Notice field (April 25, 2025) are supported.</td>
+        <td>-</td>
     </tr>
     <tr>
         <td>11</td>
@@ -161,6 +161,7 @@ The customer who assumes the position of consignor may enter into a consignment 
         <td>2</td>
         <td>16 characters</td>
         <td>Square(900x900)</td>
+        <td>-</td>
     </tr>
     <tr>
         <td>12</td>
@@ -171,6 +172,7 @@ The customer who assumes the position of consignor may enter into a consignment 
         <td>2</td>
         <td>16 characters</td>
         <td>Long(900x1200)</td>
+        <td>-</td>
     </tr>
     <tr>
         <td>13</td>
@@ -181,6 +183,7 @@ The customer who assumes the position of consignor may enter into a consignment 
         <td>2</td>
         <td>16 characters</td>
         <td>Square(900x900)</td>
+        <td>-</td>
     </tr>
     <tr>
         <td>14</td>
@@ -191,6 +194,7 @@ The customer who assumes the position of consignor may enter into a consignment 
         <td>2</td>
         <td>16 characters</td>
         <td>Vertical (900x560)</td>
+        <td>-</td>
     </tr>
     <tr>
         <td>15</td>
@@ -201,6 +205,7 @@ The customer who assumes the position of consignor may enter into a consignment 
         <td>2</td>
         <td>16 characters</td>
         <td>Horizontal(900x560)</td>
+        <td>-</td>
     </tr>
     <tr>
         <td>16</td>
@@ -211,6 +216,7 @@ The customer who assumes the position of consignor may enter into a consignment 
         <td>2</td>
         <td>16 characters</td>
         <td>Square(900x900)</td>
+        <td>-</td>
     </tr>
     <tr>
         <td>17</td>
@@ -221,6 +227,7 @@ The customer who assumes the position of consignor may enter into a consignment 
         <td>2</td>
         <td>16 characters</td>
         <td>Rectangle(900x560)</td>
+        <td>-</td>
     </tr>
 </table>
 

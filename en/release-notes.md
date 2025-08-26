@@ -1,5 +1,10 @@
 ## Notification > RCS Bizmessage > Release Notes
 
+### August 26, 2025
+#### Feature Updates
+* [API/Console] Image template support with financial compliance notice field
+  * Supports integration and sending of image templates that include financial compliance notice fields.
+
 ### August 27, 2024
 #### Feature Updates
 * [API] Enhanced validation of recipient number formats when the send API request is made
