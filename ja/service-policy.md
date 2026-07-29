@@ -1,3 +1,5 @@
+<!-- pre-align:aligned sig=3977518fbf5b -->
+
 <style>
     .custom-table thead {
         background-color: #FAFAFA;
@@ -12,9 +14,11 @@
     }
 </style>
 
-## Notification > RCS Bizmessage > サービスポリシー
+<a id="notification-rcs-bizmessage-service-policy"></a>
+## Notification > RCS Bizmessage > サービスポリシー { #notification-rcs-bizmessage-service-policy }
 
-### 個人情報処理についてのご案内
+<a id="information-on-processing-of-personal-information"></a>
+### 個人情報処理についてのご案内 { #information-on-processing-of-personal-information }
 RCS Bizmessageサービスを利用する過程で、顧客は利用者の個人情報を収集できます。したがって、本サービスを利用する顧客は、個人情報保護法に基づき、利用者に法的告知事項を通知し、同意を得なければなりません。また、この過程で、顧客とNHN Cloudの間で個人情報処理に関する業務委託関係が発生する可能性があります。委託者の地位にある顧客は、受託者であるNHN Cloudと別途に 
 書面による委託契約を締結することができ、顧客が運営する個人情報処理方針に以下の内容を参考にして告知することができます。
 
@@ -22,7 +26,8 @@ RCS Bizmessageサービスを利用する過程で、顧客は利用者の個人
 - 受託業者: NHNクラウド(株)
 - 委託業務の内容: RCS Bizmessageサービス提供業務
 
-### サポートする送信タイプ
+<a id="supported-sending-type"></a>
+### サポートする送信タイプ { #supported-sending-type }
 
 <table class="custom-table" style="text-align: center">
     <tr>
@@ -227,5 +232,6 @@ RCS Bizmessageサービスを利用する過程で、顧客は利用者の個人
     </tr>
 </table>
 
-### 代替送信未サポート送信タイプ
+<a id="alternative-sending-unsupported-type"></a>
+### 代替送信未サポート送信タイプ { #alternative-sending-unsupported-type }
 - TEMPLATE:イメージテンプレート

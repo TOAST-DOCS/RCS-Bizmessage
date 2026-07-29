@@ -1,10 +1,14 @@
-## Notification > RCS Bizmessage > Console Usage Guide
+<!-- pre-align:aligned sig=8a8466e5c94a -->
+
+<a id="notification-rcs-bizmessage-console-usage-guide"></a>
+## Notification > RCS Bizmessage > Console Usage Guide { #notification-rcs-bizmessage-console-usage-guide }
 
 
 To use the RCS Bizmessage service, you can use it after completing identity verification in [Console > RCS Bizmessage > Identity Verification] (in compliance with the Telecommunications Business Act).
 
 
-## Identity Verification
+<a id="identity-verification"></a>
+## Identity Verification { #identity-verification }
 
 * The identity verification process has been applied to the RCS Bizmessage service to comply with the Telecommunications Business Act.
 * To use the RCS Bizmessage service, the identity verification process is required. Identity verification basically requires mobile phone identification and additional document screening according to the member type.
@@ -14,13 +18,15 @@ To use the RCS Bizmessage service, you can use it after completing identity veri
 * Proof of employment can only be <span style="color:red;font-weight:bold">documents with the date of issuance and a stamp.<span style="color:red;font-weight:bold"><br/>
   Make sure you <span style="color:red;font-weight:bold">mask (hide) the last 6 digits of your resident registration number<span style="color:red;font-weight:bold"> in your employment certificate. Example) 000000-0\*\*\*\*\*\*
 
-### Required documents according to membership type
+<a id="required-documents-according-to-membership-type"></a>
+### Required documents according to membership type { #required-documents-according-to-membership-type }
 | Member Type | Verification Method | Required Documents |
 | --- | --- | --- |
 | Business Representative | Mobile Phone Identification | Business Registration Certificate, Certificate of Employment |
 | Business Executives and Employees | Mobile Phone Identification | Business Registration Certificate, Certificate of Employment |
 
-### Identity verification process
+<a id="identity-verification-process"></a>
+### Identity verification process { #identity-verification-process }
 ![RCS_01_20231004](https://static.toastoven.net/prod_rcs/en/RCS_01_20231004.png)
 1. Select the **Settings** tab.
 2. Click **Mobile Verification and Add Required Documents** to begin the process.
@@ -30,14 +36,17 @@ To use the RCS Bizmessage service, you can use it after completing identity veri
 6. Wait for the operator inspection and approval process.
 7. Once the identity verification process is completed, the approval results will be sent to the mail registered with your account.
 
-### Description of identity verification status
+<a id="description-of-identity-verification-status"></a>
+### Description of identity verification status { #description-of-identity-verification-status }
 + Reviewing: The administrator is reviewing the authentication documents for registered identity verification.
 + Rejected: A state in which identity verification has been rejected and documents must be re-registered.
 + Approved: Identity verification approval completed
 
-## Manage RCS Bizmessage
+<a id="manage-rcs-bizmessage"></a>
+## Manage RCS Bizmessage { #manage-rcs-bizmessage }
 
-### Brand Management
+<a id="brand-management"></a>
+### Brand Management { #brand-management }
 Once the pre-registration is completed (approved) in RCS Biz Center, proceed to integrate with NHN Cloud Console.
 You can check the pre-registration requirements in [Preparations Before Delivery](./pre-send-guide).
 
@@ -50,7 +59,8 @@ You can check the pre-registration requirements in [Preparations Before Delivery
 
 ![RCS_03_20231004](https://static.toastoven.net/prod_rcs/en/RCS_03_20231004.png)
 
-### Retrieve Chat Room (sender number)
+<a id="retrieve-chat-room-sender-number"></a>
+### Retrieve Chat Room (sender number) { #retrieve-chat-room-sender-number }
 You must register a chat room (sender number) in the RCS Biz Center. You can check the pre-registration in [Preparations Before Delivery](./pre-send-guide).
 
 * In RCS Biz Center, click **Service Management** > **Brand** > **Brand Operations**, select a brand, and go to the **Manage Sender Numbers** menu to register a calling number.
@@ -58,7 +68,8 @@ You must register a chat room (sender number) in the RCS Biz Center. You can che
 * If you select the brand you want from the drop box, you can look up the list of chat rooms (sender numbers) registered with that brand.
 * Only sender numbers with an ‘Approved’ status are available.
 
-### Retrieve Template
+<a id="retrieve-template"></a>
+### Retrieve Template { #retrieve-template }
 You have to register the template in the RCS Biz Center. You can check the pre-registration in [Preparations Before Delivery](./pre-send-guide).
 
 * Once the brand linkage is complete, you can look up the list of templates registered with the brand.
@@ -69,12 +80,14 @@ You have to register the template in the RCS Biz Center. You can check the pre-r
 
 
 
-## Send
+<a id="send"></a>
+## Send { #send }
 
 * To send an RCS Bizmessage, you must first proceed with the brand linkage in the [Manage RCS Bizmessage] menu.
 * After the brand linkage, you can send a message by selecting a brand and a chat room (sender number).
 
-### Send Regular SMS
+<a id="send-regular-sms"></a>
+### Send Regular SMS { #send-regular-sms }
 ![RCS_06_20231004](https://static.toastoven.net/prod_rcs/en/RCS_06_20231004.png)
 1. Select Sending brand.
 2. Select a chat room (sender number).
@@ -85,7 +98,8 @@ You have to register the template in the RCS Biz Center. You can check the pre-r
 6. Under Receiver Settings, enter the receiver number you want to send and click **Add** (maximum 50 people).
 7. Click **Send**.
 
-### Send General LMS
+<a id="send-general-lms"></a>
+### Send General LMS { #send-general-lms }
 ![RCS_07_20231004](https://static.toastoven.net/prod_rcs/en/RCS_07_20231004.png)
 1. Select Sending brand.
 2. Select a chat room (sender number).
@@ -96,7 +110,8 @@ You have to register the template in the RCS Biz Center. You can check the pre-r
 6. Under Receiver Settings, enter the receiver number you want to send and click **Add** (maximum 50 people).
 7. Click **Send**.
 
-### Send MMS
+<a id="send-mms"></a>
+### Send MMS { #send-mms }
 ![RCS_08_20231004](https://static.toastoven.net/prod_rcs/en/RCS_08_20231004.png)
 1. Select Sending brand.
 2. Select a chat room (sender number).
@@ -108,7 +123,8 @@ You have to register the template in the RCS Biz Center. You can check the pre-r
 7. Under Receiver Settings, enter the receiver number you want to send and click **Add** (maximum 50 people).
 8. Click **Send**.
 
-### Send MMS (Card Type)
+<a id="send-mms-card-type"></a>
+### Send MMS (Card Type) { #send-mms-card-type }
 <span></span>
 1. Select Sending brand.
 2. Select a chat room (sender number).
@@ -121,7 +137,8 @@ You have to register the template in the RCS Biz Center. You can check the pre-r
 8. Under Receiver Settings, enter the receiver number you want to send and click **Add** (maximum 50 people).
 9. Click **Send**.
 
-### Send Template
+<a id="send-template"></a>
+### Send Template { #send-template }
 ![RCS_09_20231004](https://static.toastoven.net/prod_rcs/en/RCS_09_20231004.png)
 1. Select Sending brand.
 2. Select a chat room (sender number).
@@ -133,49 +150,58 @@ You have to register the template in the RCS Biz Center. You can check the pre-r
 7. For each receiver, enter the appropriate value for the template replacement.
 8. Click **Send**.
 
-### Button Type
+<a id="button-type"></a>
+### Button Type { #button-type }
 You can utilize the button feature at the bottom of the message.
 
+<a id="button-type-open-chat-room"></a>
 #### Open Chat Room
 
 * Send the message you set to the phone number you set.
 * Enter a name for the button, and then enter the phone number to send the message to.
 * Enter the message content to send.
 
+<a id="button-type-copy"></a>
 #### Copy
 
 * The value you set is copied.
 * Enter a name for the button, and then enter a value that will be copied when the button is clicked.
 
+<a id="button-type-make-a-call"></a>
 #### Make a Call
 
 * Make a call to the phone number you set.
 * Enter a name for the button, and then enter a phone number to call when the button is clicked.
 
+<a id="button-type-show-mapsearch-map"></a>
 #### Show map/search map
 
 * Show the location you set on the map app.
 * Enter a name for the button, then enter the latitude and longitude of the location.
 * Enter a location name and map URL (URLs including ht<span>tps://</span>)
 
+<a id="button-type-share-your-current-location"></a>
 #### Share your current location
 
 * The recipient sends a message to the sender with the recipient's current location.
 * Enter a name for the button.
 
+<a id="button-type-link-urls"></a>
 #### Link URLs
 
 * Connect to a web link.
 * Enter a name for the button, and then enter a link to open when the button is clicked.
 * Must enter 'http://', 'https://'를 when entering a link.
 
+<a id="button-type-register-an-event"></a>
 #### Register an event
 
 * Register the event in the recipient's calendar app.
 * Enter a name for the button and select a start and end date for the schedule.
 * Enter the schedule title and schedule content.
 
-## Retrieve Send Results
+<a id="retrieve-send-results"></a>
+## Retrieve Send Results { #retrieve-send-results }
 
 * You can retrieve the results of the RCS Bizmessage request.
 * You can set the conditions for each item to retrieve.
@@ -185,7 +211,8 @@ You can utilize the button feature at the bottom of the message.
 
 ![RCS_10_20231004](https://static.toastoven.net/prod_rcs/en/RCS_10_20231004.png)
 
-### Send Result Status
+<a id="send-result-status"></a>
+### Send Result Status { #send-result-status }
 * Total
 * Prepare to send: The request has been made, but the sending has not been processed yet.
 * Sending: RCS message sending is in progress and has not yet been received.
@@ -193,17 +220,20 @@ You can utilize the button feature at the bottom of the message.
 * Sending failed: The Receiver device was not reached because the sending of the RCS message has failed.
 * Sending canceled: RCS messages sending has been cancelled by the NHN Cloud operator.
 
-## Manage Sending
+<a id="manage-sending"></a>
+## Manage Sending { #manage-sending }
 
 * You must use the SMS service to set alternative sending settings and 080 Deny-to-receive number in the RCS Bizmessage service.
 * Once the SMS service is set up, you can set up a sender number for alternative sending and retrieve the list of 080 Deny-to-receive numbers for sending advertising messages.
 
-### Use SMS Service
+<a id="use-sms-service"></a>
+### Use SMS Service { #use-sms-service }
 * Only SMS services enabled in the same project can be linked.
 * You can use the toggle button to switch the SMS service status to Active or Disabled.
 * Touch the Save button to update the SMS service linking status.
 
-### Set up Alternative Sending
+<a id="set-up-alternative-sending"></a>
+### Set up Alternative Sending { #set-up-alternative-sending }
 * If you fail to send RCS Bizmessage, you can replace it with an SMS message to send a message.
 * Click the Set button in the chat room (sender number) list to set the alternative sending status and alternative sending number.
     * Alternative sending sender numbers can only be set if they are registered with SMS service.
@@ -212,11 +242,13 @@ You can utilize the button feature at the bottom of the message.
 * Depending on the message, some items like buttons and links might look different from RCS Bizmessage.
 * The content for alternative sending is sent in EUC-KR, and unsupported emoji will fail for alternative sending.
 
-### Retrieve 080 Deny-to-receive number
+<a id="retrieve-080-deny-to-receive-number"></a>
+### Retrieve 080 Deny-to-receive number { #retrieve-080-deny-to-receive-number }
 * When sending advertising information, you <span style="color:red">must include a free unsubscribe process</span> so that recipients can unsubscribe or withdraw their consent to receive it without charge.
 * You can look up the 080 Deny-to-receive number registered with the SMS service and send messages.
 * You can see how to register for a 080 Deny-to-receive number in [Settings for 080 Deny-to-receive number](./console-guide/#080).
 
-### Set up Advertising Message
+<a id="set-up-advertising-message"></a>
+### Set up Advertising Message { #set-up-advertising-message }
 * You can set up whether to enable night ad delivery restriction and restriction times.
 * If you click Save, the settings for night ad delivery restriction are updated. 
