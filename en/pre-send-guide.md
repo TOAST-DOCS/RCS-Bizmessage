@@ -29,7 +29,7 @@ After completing the RCS brand approval, set the agency to '엔이치엔클라�
 You can receive and view messages in chats in the Messages app. You can send and view messages on a per-chat basis.
 
 1. Go to **Business Dashboard > Brand Dashboard > Register Chat Room**, and register a chat room with a caller ID.
-    * You can find related guides by clicking [Guide to register chat rooms](https://www.rcsbizcenter.com/Chatbot#section01) at the top of the Create a brand page.
+    * You can find related guides by clicking [Guide to register chat rooms](https://docs.rcsbizcenter.com/useguide/readme/chatbot#id-1) at the top of the Create a brand page.
     * A proof of telecommunications service usage dated within the last 1 month is required.
     * RCS business messaging does not support 010 numbers.
     * RCS manager will approve and it will take 2 business days to approve your chatroom.
@@ -44,7 +44,7 @@ Templates are RCS business messages that have pre-registered message content and
 To send a template message, you need to register the template in RCS Biz Center. (You do not need to register a separate template for sending with RCS SMS/LMS/MMS messages).
 
 1. Go to **Business Dashboard > Brand Dashboard > Register Template**, and register the template.
-    * You can find related guides by clicking [Template Guide](https://www.rcsbizcenter.com/RcsMessageType#section04) at the top of the Create a brand page.
+    * You can find related guides by clicking [Template Guide](https://docs.rcsbizcenter.com/useguide/readme/msg#id-1) at the top of the Create a brand page.
     * Only text/image templates can be registered. [[Delivery Supported Types]](./overview)
     * RCS manager will approve and it will take 2 business days to approve your chatroom.
 
