@@ -1,3 +1,5 @@
+<!-- pre-align:aligned sig=6a12872db115 -->
+
 <style>
     .custom-table thead {
         background-color: #FAFAFA;
@@ -12,12 +14,14 @@
     }
 </style>
 
-## Notification > RCS Bizmessage > Overview
+<a id="notification-rcs-bizmessage-overview"></a>
+## Notification > RCS Bizmessage > Overview { #notification-rcs-bizmessage-overview }
 
 The RCS Bizmessage service provides RCS Bizmessage delivery, and management of brands and templates. The RCS Bizmessage service allows users to send various types of messages, manage and provide branded information for connecting businesses with their customers.
 REST APIs for easy integration are provided.
 
-## Main Features
+<a id="main-features"></a>
+## Main Features { #main-features }
 
 * Send message full of rich information 
     * You can enter maximum 100 SMS characters, 1300 LMS/MMS characters and maximum 6 MMS attachments.    
@@ -29,7 +33,8 @@ REST APIs for easy integration are provided.
     * You can link brand and template information registered with the RCS Biz Center through the certified business registration information through the identity verification process.
     * Provides the RCS Bizmessage sending feature and query REST API that can be used in customer applications.
 
-## RCS Delivery Supported Types
+<a id="rcs-delivery-supported-types"></a>
+## RCS Delivery Supported Types { #rcs-delivery-supported-types }
 
 <table class="custom-table" style="text-align: center">
   <thead>
@@ -94,7 +99,8 @@ REST APIs for easy integration are provided.
   </tbody>
 </table>
 
-## Service Targets
+<a id="service-targets"></a>
+## Service Targets { #service-targets }
 
 * Customers looking to send messages with rich information and user action
 * Customers looking to send large amounts of RCS Bizmessage

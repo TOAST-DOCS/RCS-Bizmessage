@@ -1,10 +1,14 @@
-## Notification > RCS Bizmessage > 콘솔 사용 가이드
+<!-- pre-align:aligned sig=8a8466e5c94a -->
+
+<a id="notification-rcs-bizmessage-console-usage-guide"></a>
+## Notification > RCS Bizmessage > 콘솔 사용 가이드 { #notification-rcs-bizmessage-console-usage-guide }
 
 
 RCS Bizmessage 서비스는 [콘솔 > RCS Bizmessage > 본인 인증]에서 본인 인증을 사전에 진행한 후 사용할 수 있습니다(전기통신사업법 관련 고시 준수).
 
 
-## 본인 인증
+<a id="identity-verification"></a>
+## 본인 인증 { #identity-verification }
 
 * 전기통신사업법 관련 고시 준수를 위해 RCS Bizmessage 서비스에 본인 인증 절차가 적용되었습니다.
 * RCS Bizmessage 서비스를 이용하려면 본인 인증 절차를 필수로 진행해야 합니다. 본인 인증은 기본적으로 휴대폰 본인 인증과 회원 유형에 따른 추가 서류 심사가 필요합니다.
@@ -14,13 +18,15 @@ RCS Bizmessage 서비스는 [콘솔 > RCS Bizmessage > 본인 인증]에서 본�
 * 재직증명서는 <span style="color:red;font-weight:bold">발급일이 표기되어 있고, 직인이 날인된 서류</span>만 가능합니다.<br/>
   재직증명서 내 주민번호 뒤 6자리는 <span style="color:red;font-weight:bold">반드시 마스킹(숨김) 처리</span>해 주세요. 예) 000000-0\*\*\*\*\*\*
 
-### 회원 유형에 따른 필요 서류
+<a id="required-documents-according-to-membership-type"></a>
+### 회원 유형에 따른 필요 서류 { #required-documents-according-to-membership-type }
 | 회원 유형 | 인증 방법 | 필요 서류 |
 | --- | --- | --- |
 | 사업자 대표 | 휴대폰 본인 인증 | 사업자등록증, 재직증명서 |
 | 사업자 임직원 | 휴대폰 본인 인증 | 사업자등록증, 재직증명서 |
 
-### 본인 인증 절차
+<a id="identity-verification-process"></a>
+### 본인 인증 절차 { #identity-verification-process }
 ![RCS_01_20231004](https://static.toastoven.net/prod_rcs/ko/RCS_01_20231004.png)
 1. **본인 인증** 탭을 선택합니다.
 2. **휴대폰 본인 인증 및 필요 서류 첨부하기**를 클릭하여 절차를 시작합니다.
@@ -30,14 +36,17 @@ RCS Bizmessage 서비스는 [콘솔 > RCS Bizmessage > 본인 인증]에서 본�
 6. 운영자 검수 및 승인 절차를 대기합니다.
 7. 본인 인증 절차가 완료되면 계정에 등록된 메일로 승인 결과가 전송됩니다.
 
-### 본인 인증 상태 설명
+<a id="description-of-identity-verification-status"></a>
+### 본인 인증 상태 설명 { #description-of-identity-verification-status }
 + 심사 중: 등록한 본인 인증에 대한 인증 서류를 관리자가 검토하고 있는 상태
 + 거부: 본인 인증이 반려되어 서류 재등록이 필요한 상태
 + 승인: 본인 인증 승인 완료 상태
 
-## RCS Bizmessage 관리
+<a id="manage-rcs-bizmessage"></a>
+## RCS Bizmessage 관리 { #manage-rcs-bizmessage }
 
-### 브랜드 관리
+<a id="brand-management"></a>
+### 브랜드 관리 { #brand-management }
 RCS Biz Center에서 사전 등록 사항이 완료(승인)되었다면, NHN Cloud 콘솔과 연동을 진행합니다.
 사전 등록 사항은 [발송 전 준비사항](./pre-send-guide) 가이드에서 확인 가능합니다.
 
@@ -50,7 +59,8 @@ RCS Biz Center에서 사전 등록 사항이 완료(승인)되었다면, NHN Clo
 
 
 
-### 대화방(발신번호) 조회
+<a id="retrieve-chat-room-sender-number"></a>
+### 대화방(발신번호) 조회 { #retrieve-chat-room-sender-number }
 RCS Biz Center에서 대화방(발신번호)을 등록해야 합니다.  사전 등록 사항은 [발송 전 준비사항](./pre-send-guide)에서 확인 가능합니다.
 
 
@@ -61,7 +71,8 @@ RCS Biz Center에서 대화방(발신번호)을 등록해야 합니다.  사전 
 
 
 
-### 템플릿 조회
+<a id="retrieve-template"></a>
+### 템플릿 조회 { #retrieve-template }
 RCS Biz Center에서 템플릿을 등록해야 합니다. 사전 등록 사항은 [발송 전 준비사항](./pre-send-guide)에서 확인 가능합니다.
 
 * 브랜드 연동이 완료되면, 브랜드에 등록된 템플릿 목록을 조회할 수 있습니다.
@@ -69,12 +80,14 @@ RCS Biz Center에서 템플릿을 등록해야 합니다. 사전 등록 사항�
 * RCS Biz Center에서 템플릿을 변경한 경우 **브랜드 관리** > **+브랜드 연동**을 클릭해 업데이트를 진행합니다.
 
 
-## 발송
+<a id="send"></a>
+## 발송 { #send }
 
 * RCS Bizmessage를 발송하려면 [RCS Bizmessage 관리] 메뉴에서 브랜드 연동을 먼저 진행해야 합니다.
 * 브랜드 연동 이후 발신 브랜드와 대화방(발신번호)을 선택하여 메시지를 발송할 수 있습니다.
 
-### 일반 SMS 발송
+<a id="send-regular-sms"></a>
+### 일반 SMS 발송 { #send-regular-sms }
 ![RCS_06_20231004](https://static.toastoven.net/prod_rcs/ko/RCS_06_20231004.png)
 1. 발신 브랜드를 선택합니다.
 2. 대화방(발신번호)를 선택합니다.
@@ -85,7 +98,8 @@ RCS Biz Center에서 템플릿을 등록해야 합니다. 사전 등록 사항�
 6. 수신자 설정에서 발송할 수신 번호를 입력한 뒤 **추가**를 클릭합니다. 최대 50명까지 추가할 수 있습니다.
 7. **발송**을 클릭합니다.
 
-### 일반 LMS 발송
+<a id="send-general-lms"></a>
+### 일반 LMS 발송 { #send-general-lms }
 ![RCS_07_20231004](https://static.toastoven.net/prod_rcs/ko/RCS_07_20231004.png)
 1. 발신 브랜드를 선택합니다.
 2. 대화방(발신번호)를 선택합니다.
@@ -96,7 +110,8 @@ RCS Biz Center에서 템플릿을 등록해야 합니다. 사전 등록 사항�
 6. 수신자 설정에서 발송할 수신 번호를 작성하고 **추가**를 클릭합니다. 최대 50명까지 추가할 수 있습니다.
 7. **발송**을 클릭합니다.
 
-### MMS 발송
+<a id="send-mms"></a>
+### MMS 발송 { #send-mms }
 ![RCS_08_20231004](https://static.toastoven.net/prod_rcs/ko/RCS_08_20231004.png)
 1. 발신 브랜드를 선택합니다.
 2. 대화방(발신번호)를 선택합니다.
@@ -108,7 +123,8 @@ RCS Biz Center에서 템플릿을 등록해야 합니다. 사전 등록 사항�
 7. 수신자 설정에서 발송할 수신 번호를 작성하고 **추가**를 클릭합니다. 최대 50명까지 추가할 수 있습니다.
 8. **발송**을 클릭합니다.
 
-### MMS 발송(카드형)
+<a id="send-mms-card-type"></a>
+### MMS 발송(카드형) { #send-mms-card-type }
 <span></span>
 1. 발신 브랜드를 선택합니다.
 2. 대화방(발신번호)를 선택합니다.
@@ -121,7 +137,8 @@ RCS Biz Center에서 템플릿을 등록해야 합니다. 사전 등록 사항�
 8. 수신자 설정에서 발송할 수신 번호를 작성하고 **추가**를 클릭합니다. 최대 50명까지 추가할 수 있습니다.
 9. **발송**을 클릭합니다.
 
-### 템플릿 발송
+<a id="send-template"></a>
+### 템플릿 발송 { #send-template }
 ![RCS_09_20231004](https://static.toastoven.net/prod_rcs/ko/RCS_09_20231004.png)
 1. 발신 브랜드를 선택합니다.
 2. 대화방(발신번호)를 선택합니다.
@@ -133,49 +150,58 @@ RCS Biz Center에서 템플릿을 등록해야 합니다. 사전 등록 사항�
 7. 수신자별로 템플릿 치환자에 맞는 값을 입력합니다.
 8. **발송**을 클릭합니다.
 
-### 버튼 유형
+<a id="button-type"></a>
+### 버튼 유형 { #button-type }
 메시지 하단에 버튼 기능을 활용할 수 있습니다.
 
+<a id="button-type-open-chat-room"></a>
 #### 대화방 열기
 
 * 설정한 전화번호로 설정한 메시지를 전송합니다.
 * 버튼명을 입력 후 메시지를 전송할 전화번호를 입력합니다.
 * 전송할 메시지 내용을 입력합니다.
 
+<a id="button-type-copy"></a>
 #### 복사하기
 
 * 설정한 값이 복사됩니다.
 * 버튼명을 입력 후 버튼 클릭 시 복사될 값을 입력합니다.
 
+<a id="button-type-make-a-call"></a>
 #### 전화 걸기
 
 * 설정한 전화번호로 전화를 겁니다.
 * 버튼명을 입력 후 버튼 클릭 시 전화할 전화번호를 입력합니다.
 
+<a id="button-type-show-mapsearch-map"></a>
 #### 지도 보여주기/지도 검색하기
 
 * 설정한 위치를 지도 앱에서 보여줍니다.
 * 버튼명을 입력 후 위치의 위도, 경도를 입력합니다.
 * 위치명 및 지도 URL을 입력합니다.(ht<span>tps://</span>를 포함한 URL)
 
+<a id="button-type-share-your-current-location"></a>
 #### 현재 위치 공유
 
 * 수신자가 발신자에게 수신자의 현재 위치를 메시지로 전송합니다.
 * 버튼명을 입력합니다.
 
+<a id="button-type-link-urls"></a>
 #### URL 연결
 
 * 웹 링크로 연결됩니다.
 * 버튼명을 입력 후 버튼 클릭 시 연결할 링크를 입력합니다.
 * 링크 입력 시 'http://', 'https://'를 필수 입력해야 합니다.
 
+<a id="button-type-register-an-event"></a>
 #### 일정 등록
 
 * 수신자의 일정 앱에 일정을 등록합니다.
 * 버튼명을 입력 후 일정 시작일, 종료일을 선택합니다.
 * 일정 제목 및 일정 내용을 입력합니다.
 
-## 발송 결과 조회
+<a id="retrieve-send-results"></a>
+## 발송 결과 조회 { #retrieve-send-results }
 
 * RCS Bizmessage 발송 요청한 건들에 대해서 결과를 조회할 수 있습니다.
 * 각 항목의 조건을 설정하여 조회할 수 있습니다.
@@ -185,7 +211,8 @@ RCS Biz Center에서 템플릿을 등록해야 합니다. 사전 등록 사항�
 
 ![RCS_10_20231004](https://static.toastoven.net/prod_rcs/ko/RCS_10_20231004.png)
 
-### 발송 결과 상태
+<a id="send-result-status"></a>
+### 발송 결과 상태 { #send-result-status }
 * 전체
 * 발송 준비: 요청은 들어갔으나 아직 발송이 진행되지 않은 상태입니다.
 * 발송 중: RCS 메시지 발송이 진행 중으로 아직 수신되지 않은 상태입니다.
@@ -193,17 +220,20 @@ RCS Biz Center에서 템플릿을 등록해야 합니다. 사전 등록 사항�
 * 발송 실패: RCS 메시지 발송이 실패되어 수신자 단말기에 도달하지 못한 상태입니다.
 * 발송 취소: RCS 메시지 발송이 NHN Cloud 운영자에 의해 취소된 상태입니다.
 
-## 발송 관리
+<a id="manage-sending"></a>
+## 발송 관리 { #manage-sending }
 
 * RCS Bizmessage 서비스에서 대체 발송 설정과 080 수신거부 번호를 설정하기 위해서는 SMS 서비스를 이용해야 합니다.
 * SMS 서비스 이용 설정이 완료되면 대체 발송을 위한 발신번호 설정이 가능하고, 광고성 메시지 발송을 위한 080 수신거부 번호 목록을 조회할 수 있습니다.
 
-### SMS 서비스 이용
+<a id="use-sms-service"></a>
+### SMS 서비스 이용 { #use-sms-service }
 * 동일한 프로젝트에서 활성화된 SMS 서비스만 연동할 수 있습니다.
 * 토글 버튼을 이용하여 SMS 서비스 상태를 활성화 상태 또는 비활성화 상태로 전환할 수 있습니다.
 * 저장 버튼을 누르면 SMS 서비스 연동 상태가 업데이트됩니다.
 
-### 대체 발송 설정
+<a id="set-up-alternative-sending"></a>
+### 대체 발송 설정 { #set-up-alternative-sending }
 * RCS Bizmessage 발송 실패 시 SMS 메시지로 대체하여 메시지를 발송할 수 있습니다.
 * 대화방(발신번호) 목록에서 설정 버튼을 누르면 대체 발송 여부와 대체 발송 발신 번호를 설정할 수 있습니다.
     * 대체 발송 발신번호는 SMS 서비스에서 발신번호를 등록해야 설정할 수 있습니다.
@@ -212,11 +242,13 @@ RCS Biz Center에서 템플릿을 등록해야 합니다. 사전 등록 사항�
 * 메시지에 따라 버튼, 링크 등 일부 내용이 RCS Bizmessage와 다르게 보일 수 있습니다.
 * 대체 발송 내용은 EUC-KR 기준으로 발송되며, 지원하지 않는 이모티콘은 대체 발송에 실패합니다.
 
-### 080 수신거부 번호 조회
+<a id="retrieve-080-deny-to-receive-number"></a>
+### 080 수신거부 번호 조회 { #retrieve-080-deny-to-receive-number }
 * 광고성 정보 전송 시 수신자가 무료로 수신을 거부하거나 수신 동의를 철회할 수 있도록 <span style="color:red">무료 수신거부 방법을 반드시 기재</span>해야 합니다.
 * SMS 서비스에 등록된 080 수신거부 번호를 선택해 발송 및 조회할 수 있습니다.
 * 080 수신거부 번호 가입 방법은 [080 수신거부 설정](./console-guide/#080)에서 확인 가능합니다.
 
-### 광고성 메시지 설정
+<a id="set-up-advertising-message"></a>
+### 광고성 메시지 설정 { #set-up-advertising-message }
 * 광고성 메시지의 야간 발송 제한 기능 사용 여부 및 제한 시간을 설정할 수 있습니다.
 * 저장 버튼을 누르면 광고성 메시지의 야간 발송 제한 설정이 업데이트됩니다. 

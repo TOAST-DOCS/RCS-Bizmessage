@@ -1,6 +1,10 @@
-## Notification > RCS Bizmessage > Result Code
+<!-- pre-align:aligned sig=89afce9eccbc -->
 
-### API Result Code
+<a id="notification-rcs-bizmessage-result-code"></a>
+## Notification > RCS Bizmessage > Result Code { #notification-rcs-bizmessage-result-code }
+
+<a id="api-result-code"></a>
+### API Result Code { #api-result-code }
 | Result Code | Description | API Response Message | Note |
 | --- | --- | --- | --- |
 | 0 | Success | success | |
@@ -49,7 +53,8 @@
 | -9000 | Night advertising message delivery restricted | Night ad delivery is limited. | |
 | -9999 | Internal error | System error. Please inquire at support@toast.com. | |
 
-### Result Code of Receiving
+<a id="result-code-of-receiving"></a>
+### Result Code of Receiving { #result-code-of-receiving }
 
 | Result Code | Description | Note |
 | --- | --- | --- |

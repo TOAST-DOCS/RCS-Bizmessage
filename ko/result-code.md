@@ -1,6 +1,10 @@
-## Notification > RCS Bizmessage > 결과 코드
+<!-- pre-align:aligned sig=89afce9eccbc -->
 
-### API 결과 코드
+<a id="notification-rcs-bizmessage-result-code"></a>
+## Notification > RCS Bizmessage > 결과 코드 { #notification-rcs-bizmessage-result-code }
+
+<a id="api-result-code"></a>
+### API 결과 코드 { #api-result-code }
 | 결과 코드 | 설명 | API 응답 메시지 | 비고 |
 | --- | --- | --- | --- |
 | 0 | 성공 | success | |
@@ -49,7 +53,8 @@
 | -9000 | 야간 광고 발송 제한됨 | Night ad delivery is limited. | |
 | -9999 | 내부 에러 | System error. Please inquire at support@toast.com. | |
 
-### 수신 결과 코드
+<a id="result-code-of-receiving"></a>
+### 수신 결과 코드 { #result-code-of-receiving }
 
 | 결과 코드 | 설명 | 비고 |
 | --- | --- | --- |

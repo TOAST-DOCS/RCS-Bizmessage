@@ -1,3 +1,5 @@
+<!-- pre-align:aligned sig=3977518fbf5b -->
+
 <style>
     .custom-table thead {
         background-color: #FAFAFA;
@@ -12,9 +14,11 @@
     }
 </style>
 
-## Notification > RCS Bizmessage > Service Policy
+<a id="notification-rcs-bizmessage-service-policy"></a>
+## Notification > RCS Bizmessage > Service Policy { #notification-rcs-bizmessage-service-policy }
 
-### Information on Processing of Personal Information
+<a id="information-on-processing-of-personal-information"></a>
+### Information on Processing of Personal Information { #information-on-processing-of-personal-information }
 While using the RCS Bizmessage service, the customer may collect personal information of their users. Therefore, the customer of this service must inform a legal notice to their users as per the Personal Information Protection Act and acquire their consent regarding the matter. Also during this process, work consignment relation regarding the processing of personal information may arise between the customer and NHN Cloud. 
 The customer who assumes the position of consignor may enter into a consignment contract with the consignee, NHN Cloud, separately in writing, and post a privacy policy notice by referencing the following.
 
@@ -22,11 +26,8 @@ The customer who assumes the position of consignor may enter into a consignment 
 - Consignee: NHN Cloud Corp.
 - Consignment Description: Providing RCS Bizmessage service
 
-### Unsupported Sending Type
-- MMS: Image & title highlighted, image highlighted, social media, thumbnail
-- TEMPLATE: Image template (item details), LMS template
-
-### Supported Sending Type
+<a id="supported-sending-type"></a>
+### Supported Sending Type { #supported-sending-type }
 
 <table class="custom-table" style="text-align: center">
     <tr>
@@ -231,5 +232,6 @@ The customer who assumes the position of consignor may enter into a consignment 
     </tr>
 </table>
 
-### Alternative Sending Unsupported Type
+<a id="alternative-sending-unsupported-type"></a>
+### Alternative Sending Unsupported Type { #alternative-sending-unsupported-type }
 - TEMPLATE: Image template
