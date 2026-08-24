@@ -1,3 +1,5 @@
+<!-- pre-align:aligned sig=6a12872db115 -->
+
 <style>
     .custom-table thead {
         background-color: #FAFAFA;
@@ -12,12 +14,14 @@
     }
 </style>
 
-## Notification > RCS Bizmessage > 개요
+<a id="notification-rcs-bizmessage-overview"></a>
+## Notification > RCS Bizmessage > 개요 { #notification-rcs-bizmessage-overview }
 
 RCS Bizmessage 서비스는 RCS Bizmessage 발송 및 브랜드, 템플릿 관리 기능을 제공하는 서비스입니다. RCS Bizmessage 서비스를 통해 사용자는 다양한 유형의 메시지를 발송하고 기업과 고객 간 연결을 위한 브랜드 정보를 관리하며 제공할 수 있습니다.
 손쉬운 연동을 위한 REST API를 제공합니다.
 
-## 주요 기능
+<a id="main-features"></a>
+## 주요 기능 { #main-features }
 
 * 풍부한 정보의 메시지 발송
     * SMS 최대 100자, LMS/MMS 최대 1300자 입력 가능하며, MMS 첨부파일은 최대 6개까지 입력 가능합니다.    
@@ -29,7 +33,8 @@ RCS Bizmessage 서비스는 RCS Bizmessage 발송 및 브랜드, 템플릿 관�
     * 본인 인증 절차를 통해 인증된 사업자 등록 정보로 RCS Biz Center에 등록한 브랜드, 템플릿 정보를 연동할 수 있습니다.
     * 고객의 애플리케이션에서 사용할 수 있는 RCS Bizmessage 발송 기능과 조회 REST API를 제공합니다.
 
-## RCS 발송 지원 타입
+<a id="rcs-delivery-supported-types"></a>
+## RCS 발송 지원 타입 { #rcs-delivery-supported-types }
 
 <table class="custom-table" style="text-align: center">
   <thead>
@@ -91,7 +96,8 @@ RCS Bizmessage 서비스는 RCS Bizmessage 발송 및 브랜드, 템플릿 관�
   </tbody>
 </table>
 
-## 서비스 대상
+<a id="service-targets"></a>
+## 서비스 대상 { #service-targets }
 
 * 풍부한 정보와 사용자 액션을 담고 메시지를 발송하고자 하는 고객
 * 대량의 RCS Bizmessage를 발송하고자 하는 고객

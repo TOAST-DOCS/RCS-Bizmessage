@@ -1,6 +1,10 @@
-## Notification > RCS Bizmessage > 結果コード
+<!-- pre-align:aligned sig=89afce9eccbc -->
 
-### API結果コード
+<a id="notification-rcs-bizmessage-result-code"></a>
+## Notification > RCS Bizmessage > 結果コード { #notification-rcs-bizmessage-result-code }
+
+<a id="api-result-code"></a>
+### API結果コード { #api-result-code }
 | 結果コード | 説明 | APIレスポンスメッセージ | 備考 |
 | --- | --- | --- | --- |
 | 0 | 成功 | success | |
@@ -49,7 +53,8 @@
 | -9000 | 夜間広告送信が制限されている | Night ad delivery is limited. | |
 | -9999 | 内部エラー | System error. Please inquire at support@toast.com. | |
 
-### 受信結果コード
+<a id="result-code-of-receiving"></a>
+### 受信結果コード { #result-code-of-receiving }
 
 | 結果コード | 説明 | 備考 |
 | --- | --- | --- |
