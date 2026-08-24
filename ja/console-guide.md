@@ -1,10 +1,14 @@
-## Notification > RCS Bizmessage > コンソール使用ガイド
+<!-- pre-align:aligned sig=8a8466e5c94a -->
+
+<a id="notification-rcs-bizmessage-console-usage-guide"></a>
+## Notification > RCS Bizmessage > コンソール使用ガイド { #notification-rcs-bizmessage-console-usage-guide }
 
 
 RCS Bizmessageサービスは[コンソール > RCS Bizmessage > 本人認証]で本人認証を事前に行った後に使用できます(電気通信事業法関連告示遵守)。
 
 
-## 本人認証
+<a id="identity-verification"></a>
+## 本人認証 { #identity-verification }
 
 * 電気通信事業法関連告示を遵守するため、RCS Bizmessageサービスに本人認証手続きが適用されました。
 * RCS Bizmessageサービスを利用するには、本人認証の手続きを必ず行ってください。本人認証は、基本的に携帯電話の本人認証と会員タイプに応じた追加書類審査が必要です。
@@ -14,13 +18,15 @@ RCS Bizmessageサービスは[コンソール > RCS Bizmessage > 本人認証]�
 * 在職証明書は <span style="color:red;font-weight:bold">発行日が表記されており、印鑑が押印された書類</span>のみ可能です。<br/>
  在職証明書内の住民番号の後ろ6桁は<span style="color:red;font-weight:bold">必ずマスキング（非表示）処理</span>してください。例) 000000-0\*\*\*\*\*\*
 
-### 会員タイプ別の必要書類
+<a id="required-documents-according-to-membership-type"></a>
+### 会員タイプ別の必要書類 { #required-documents-according-to-membership-type }
 | 会員タイプ | 認証方法 | 必要書類 |
 | --- | --- | --- |
 | 事業者代表 | 携帯電話本人認証 | 事業者登録証、在職証明書 |
 | 事業者従業員 | 携帯電話本人認証 | 事業者登録証、在職証明書 |
 
-### 本人認証の手順
+<a id="identity-verification-process"></a>
+### 本人認証の手順 { #identity-verification-process }
 ![RCS_01_20231004](https://static.toastoven.net/prod_rcs/en/RCS_01_20231004.png)
 1. **本人認証**タブを選択します。
 2. **携帯電話本人認証及び必要書類を添付する**をクリックして手続きを開始します。
@@ -30,14 +36,17 @@ RCS Bizmessageサービスは[コンソール > RCS Bizmessage > 本人認証]�
 6. 運営者の検収及び承認手続きを待ちます。
 7. 本人認証手続きが完了すると、アカウントに登録されたメールに承認結果が送信されます。
 
-### 本人認証状態説明
+<a id="description-of-identity-verification-status"></a>
+### 本人認証状態説明 { #description-of-identity-verification-status }
 '+ 審査中:登録した本人認証に対する認証書類を管理者が検討している状態。
 '+ 拒否:本人認証が拒否され、書類の再登録が必要な状態。
 '+ 承認:本人認証承認完了状態
 
-## RCS Bizmessage管理
+<a id="manage-rcs-bizmessage"></a>
+## RCS Bizmessage管理 { #manage-rcs-bizmessage }
 
-### ブランド管理
+<a id="brand-management"></a>
+### ブランド管理 { #brand-management }
 RCS Biz Centerで事前登録が完了(承認)されたら、NHN Cloudコンソールと連動を行います。
 事前登録事項は[送信前準備事項](./pre-send-guide)ガイドで確認できます。
 
@@ -50,7 +59,8 @@ RCS Biz Centerで事前登録が完了(承認)されたら、NHN Cloudコンソ�
 
 
 
-### チャットルーム(発信番号)照会
+<a id="retrieve-chat-room-sender-number"></a>
+### チャットルーム(発信番号)照会 { #retrieve-chat-room-sender-number }
 RCS Biz Centerでチャットルーム(発信番号)を登録する必要があります。事前登録事項は[送信前の準備事項](./pre-send-guide)で確認できます。
 
 * ブランド連動が完了すると、ブランドに登録されたチャットルーム(発信番号)のリストを照会できます。
@@ -59,7 +69,8 @@ RCS Biz Centerでチャットルーム(発信番号)を登録する必要があ�
 * RCS Biz Centerでチャットルーム(発信番号)に変更がある場合は、**ブランド管理** > **+ブランド連動**ボタンを押して更新を行います。
 
 
-### テンプレート照会
+<a id="retrieve-template"></a>
+### テンプレート照会 { #retrieve-template }
 RCS Biz Centerでテンプレートを登録する必要があります。事前登録事項は[送信前の準備事項](./pre-send-guide)で確認できます。
 
 * ブランド連動が完了すると、ブランドに登録されたテンプレートのリストを照会できます。
@@ -67,12 +78,14 @@ RCS Biz Centerでテンプレートを登録する必要があります。事前
 * RCS Biz Centerでテンプレートを変更した場合、**ブランド管理** > **+ブランド連動**をクリックして更新を行います。
 
 
-## 送信
+<a id="send"></a>
+## 送信 { #send }
 
 * RCS Bizmessageを送信するには、[RCS Bizmessage管理]メニューでブランド連動を先に行う必要があります。
 * ブランド連動後、発信ブランドとチャットルーム(発信番号)を選択してメッセージを送信できます。
 
-### 一般SMS送信
+<a id="send-regular-sms"></a>
+### 一般SMS送信 { #send-regular-sms }
 ![RCS_06_20231004](https://static.toastoven.net/prod_rcs/en/RCS_06_20231004.png)
 1. 発信ブランドを選択します。
 2. チャットルーム(発信番号)を選択します。
@@ -83,7 +96,8 @@ RCS Biz Centerでテンプレートを登録する必要があります。事前
 6. 受信者設定で送信する受信番号を入力した後、**追加**をクリックします。最大50人まで追加できます。
 7. **送信**をクリックします。
 
-### 一般LMS送信
+<a id="send-general-lms"></a>
+### 一般LMS送信 { #send-general-lms }
 ![RCS_07_20231004](https://static.toastoven.net/prod_rcs/en/RCS_07_20231004.png)
 1. 発信ブランドを選択します。
 2. チャットルーム(発信番号)を選択します。
@@ -94,7 +108,8 @@ RCS Biz Centerでテンプレートを登録する必要があります。事前
 6. 受信者設定で送信する受信番号を作成し、**追加**をクリックします。最大50人まで追加できます。
 7. **送信**をクリックします。
 
-### MMS送信
+<a id="send-mms"></a>
+### MMS送信 { #send-mms }
 ![RCS_08_20231004](https://static.toastoven.net/prod_rcs/en/RCS_08_20231004.png)
 1. 発信ブランドを選択します。
 2. チャットルーム(発信番号)を選択します。
@@ -106,7 +121,8 @@ RCS Biz Centerでテンプレートを登録する必要があります。事前
 7. 受信者設定で送信する受信番号を作成し、**追加**をクリックします。最大50人まで追加できます。
 8. **送信**をクリックします。
 
-### MMS送信(カード型)
+<a id="send-mms-card-type"></a>
+### MMS送信(カード型) { #send-mms-card-type }
 <span></span>
 1. 発信ブランドを選択します。
 2. チャットルーム(発信番号)を選択します。
@@ -119,7 +135,8 @@ RCS Biz Centerでテンプレートを登録する必要があります。事前
 8. 受信者設定で送信する受信番号を作成し、**追加**をクリックします。最大50人まで追加できます。
 9. **送信**をクリックします。
 
-### テンプレート送信
+<a id="send-template"></a>
+### テンプレート送信 { #send-template }
 ![RCS_09_20231004](https://static.toastoven.net/prod_rcs/en/RCS_09_20231004.png)
 1. 発信ブランドを選択します。
 2. チャットルーム(発信番号)を選択します。
@@ -131,49 +148,58 @@ RCS Biz Centerでテンプレートを登録する必要があります。事前
 7. 受信者別にテンプレート日本語識別子に合う値を入力します。
 8. **送信**をクリックします。
 
-### ボタンタイプ
+<a id="button-type"></a>
+### ボタンタイプ { #button-type }
 メッセージ下部にあるボタン機能を活用できます。
 
+<a id="button-type-open-chat-room"></a>
 #### チャットルームを開く
 
 * 設定した電話番号に設定したメッセージを送信します。
 * ボタン名を入力し、メッセージを送信する電話番号を入力します。
 * 送信するメッセージの内容を入力します。
 
+<a id="button-type-copy"></a>
 #### コピーする
 
 * 設定した値がコピーされます。
 * ボタン名を入力した後、ボタンをクリックするとコピーされる値を入力します。
 
+<a id="button-type-make-a-call"></a>
 #### 電話をかける
 
 * 設定した電話番号に電話をかけます。
 * ボタン名を入力した後、ボタンをクリックすると電話する電話番号を入力します。
 
+<a id="button-type-show-mapsearch-map"></a>
 #### マップを表示/マップを検索する
 
 * 設定した位置をマップアプリで表示します。
 * ボタン名を入力後、位置の緯度、経度を入力します。
 * 位置名およびマップURLを入力します。(ht<span>tps://</span>を含むURL)
 
+<a id="button-type-share-your-current-location"></a>
 #### 現在位置の共有
 
 * 受信者が発信者に受信者の現在位置をメッセージで送信します。
 * ボタン名を入力します。
 
+<a id="button-type-link-urls"></a>
 #### URL接続
 
 * Webリンクに接続されます。
 * ボタン名を入力し、ボタンクリック時に接続するリンクを入力します。
 * リンク入力時に'http://','https://'を必ず入力する必要があります。
 
+<a id="button-type-register-an-event"></a>
 #### 予定登録
 
 * 受信者のスケジュールアプリに予定を登録します。
 * ボタン名を入力し、スケジュール開始日、終了日を選択します。
 * 予定タイトルおよび予定内容を入力します。
 
-## 送信結果照会
+<a id="retrieve-send-results"></a>
+## 送信結果照会 { #retrieve-send-results }
 
 * RCS Bizmessageの送信を要求した件について結果を照会できます。
 * 各項目の条件を設定して照会できます。
@@ -183,7 +209,8 @@ RCS Biz Centerでテンプレートを登録する必要があります。事前
 
 ![RCS_10_20231004](https://static.toastoven.net/prod_rcs/en/RCS_10_20231004.png)
 
-### 送信結果状態
+<a id="send-result-status"></a>
+### 送信結果状態 { #send-result-status }
 * 全体
 * 送信準備：リクエストは入っているが、まだ送信が行われていない状態です。
 * 送信中：RCSメッセージの送信が進行中で、まだ受信されていない状態です。
@@ -191,17 +218,20 @@ RCS Biz Centerでテンプレートを登録する必要があります。事前
 * 送信失敗: RCSメッセージの送信が失敗し、受信者端末に到達していない状態です。
 * 送信キャンセル: RCSメッセージの送信がNHN Cloud運営者によってキャンセルされた状態です。
 
-## 送信管理
+<a id="manage-sending"></a>
+## 送信管理 { #manage-sending }
 
 * RCS Bizmessageサービスで代替送信設定と080受信拒否番号を設定するためには、SMSサービスを利用する必要があります。
 * SMSサービスの利用設定が完了すると、代替送信のための発信番号の設定が可能で、広告性メッセージ送信のための080受信拒否番号のリストを照会できます。
 
-### SMSサービス利用
+<a id="use-sms-service"></a>
+### SMSサービス利用 { #use-sms-service }
 * 同じプロジェクトで有効化されたSMSサービスのみ連動できます。
 * トグルボタンを利用してSMSサービスの状態を有効状態または無効状態に切り替えることができます。
 * 保存ボタンを押すと、SMSサービスの連動状態が更新されます。
 
-### 代替送信設定
+<a id="set-up-alternative-sending"></a>
+### 代替送信設定 { #set-up-alternative-sending }
 * RCS Bizmessageの送信に失敗した場合、SMSメッセージに置き換えてメッセージを送信できます。
 * チャットルーム（発信番号）リストから設定ボタンを押すと、代替送信の有無と代替送信の発信番号を設定できます。
     * 代替送信の送信番号は、SMSサービスで送信番号を登録すると設定できます。
@@ -210,11 +240,13 @@ RCS Biz Centerでテンプレートを登録する必要があります。事前
 * メッセージによっては、ボタン、リンクなど一部の内容がRCS Bizmessageと異なる場合があります。
 * 代替送信の内容はEUC-KR基準で送信され、サポートしていない絵文字は代替送信に失敗します。
 
-### 080受信拒否番号照会
+<a id="retrieve-080-deny-to-receive-number"></a>
+### 080受信拒否番号照会 { #retrieve-080-deny-to-receive-number }
 * 広告性情報を送信する場合、受信者が無料で受信を拒否したり、受信同意を取り消すことができるように<span style="color:red">無料受信拒否方法を必ず記載</span>する必要があります。
 * SMSサービスに登録された080受信拒否番号を選択して送信および照会できます。
 * 080受信拒否番号の加入方法は[080受信拒否設定](./console-guide/#080)で確認可能です。
 
-### 広告性メッセージ設定
+<a id="set-up-advertising-message"></a>
+### 広告性メッセージ設定 { #set-up-advertising-message }
 * 広告性メッセージの夜間送信制限機能の使用有無及び制限時間を設定できます。
 * 保存ボタンを押すと、広告性メッセージの夜間送信制限設定が更新されます。

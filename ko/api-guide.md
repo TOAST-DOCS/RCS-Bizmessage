@@ -1,14 +1,21 @@
-## Notification > RCS Bizmessage > API v1.0 Guide
+<!-- pre-align:aligned sig=d6fa7a1e51ab -->
 
-## v1.0 API 소개
-### [API 도메인]
+<a id="notification-rcs-bizmessage-api-v10-guide"></a>
+## Notification > RCS Bizmessage > API v1.0 Guide { #notification-rcs-bizmessage-api-v10-guide }
+
+<a id="overview-of-v10-api"></a>
+## v1.0 API 소개 { #overview-of-v10-api }
+<a id="api-domain"></a>
+### [API 도메인] { #api-domain }
 ```
 https://rcs-bizmessage.api.nhncloudservice.com
 ```
 
-## 메시지 발송
+<a id="send-messages"></a>
+## 메시지 발송 { #send-messages }
 
-### SMS 타입 발송
+<a id="send-sms-type"></a>
+### SMS 타입 발송 { #send-sms-type }
 [Method, URI]
 
 ```
@@ -87,7 +94,8 @@ Content-Type: application/json
 | header.isSuccessful | Boolean | 성공 여부 |
 
 
-### LMS 타입 발송
+<a id="send-lms-type"></a>
+### LMS 타입 발송 { #send-lms-type }
 [Method, URI]
 
 ```
@@ -167,7 +175,8 @@ Content-Type: application/json
 | header.resultMessage | String | 결과 메시지 |
 | header.isSuccessful | Boolean | 성공 여부 |
 
-### MMS 타입 발송
+<a id="send-messages-send-lms-type"></a>
+### MMS 타입 발송 { #send-messages-send-lms-type }
 [Method, URI]
 
 ```
@@ -261,7 +270,8 @@ Content-Type: application/json
 | header.resultMessage | String | 결과 메시지 |
 | header.isSuccessful | Boolean | 성공 여부 |
 
-### Template 타입 발송
+<a id="send-template-type"></a>
+### Template 타입 발송 { #send-template-type }
 [Method, URI]
 
 ```
@@ -337,9 +347,11 @@ Content-Type: application/json
 | header.resultMessage | String | 결과 메시지 |
 | header.isSuccessful | Boolean | 성공 여부 |
 
-## 메시지 조회
+<a id="query-messages"></a>
+## 메시지 조회 { #query-messages }
 
-### SMS 메시지 조회 API
+<a id="query-sms-message-api"></a>
+### SMS 메시지 조회 API { #query-sms-message-api }
 [Method, URI]
 ```
 GET /rcs/v1.0/messages/sms
@@ -438,7 +450,8 @@ Content-Type: application/json
 | data.fallbackStatus | String | 대체 발송 상태<br><ul><li>대체 발송 대상 아님(NONE)</li><li>대체 발송 중(IN_PROGRESS)</li><li>대체 발송 완료(COMPLETE)</li><li>대체 발송 실패(SEND_FAILED)</li></ul>  |
 | data.fallbackDateTime | dateTime | 대체 발송 요청 시간(YYYY-MM-DDThh:mm:ss.SSS±hh:mm) |
 
-### LMS 메시지 조회 API
+<a id="query-lms-message-api"></a>
+### LMS 메시지 조회 API { #query-lms-message-api }
 [Method, URI]
 
 ```
@@ -537,7 +550,8 @@ Content-Type: application/json
 | data.fallbackStatus | String | 대체 발송 상태<br><ul><li>대체 발송 대상 아님(NONE)</li><li>대체 발송 중(IN_PROGRESS)</li><li>대체 발송 완료(COMPLETE)</li><li>대체 발송 실패(SEND_FAILED)</li></ul>  |
 | data.fallbackDateTime | dateTime | 대체 발송 요청 시간(YYYY-MM-DDThh:mm:ss.SSS±hh:mm) |
 
-### MMS 메시지 조회 API
+<a id="query-mms-message-api"></a>
+### MMS 메시지 조회 API { #query-mms-message-api }
 [Method, URI]
 
 ```
@@ -636,7 +650,8 @@ Content-Type: application/json
 | data.fallbackStatus | String | 대체 발송 상태<br><ul><li>대체 발송 대상 아님(NONE)</li><li>대체 발송 중(IN_PROGRESS)</li><li>대체 발송 완료(COMPLETE)</li><li>대체 발송 실패(SEND_FAILED)</li></ul>  |
 | data.fallbackDateTime | dateTime | 대체 발송 요청 시간(YYYY-MM-DDThh:mm:ss.SSS±hh:mm) |
 
-### TEMPLATE 메시지 조회 API
+<a id="query-template-message-api"></a>
+### TEMPLATE 메시지 조회 API { #query-template-message-api }
 [Method, URI]
 
 ```
@@ -735,8 +750,10 @@ Content-Type: application/json
 | data.fallbackStatus | String | 대체 발송 상태<br><ul><li>대체 발송 대상 아님(NONE)</li><li>대체 발송 중(IN_PROGRESS)</li><li>대체 발송 완료(COMPLETE)</li><li>대체 발송 실패(SEND_FAILED)</li></ul>  |
 | data.fallbackDateTime | dateTime | 대체 발송 요청 시간(YYYY-MM-DDThh:mm:ss.SSS±hh:mm) |
 
-## 메시지 상세 조회
-### SMS 메시지 상세 조회 API
+<a id="query-message-details"></a>
+## 메시지 상세 조회 { #query-message-details }
+<a id="query-sms-message-details-api"></a>
+### SMS 메시지 상세 조회 API { #query-sms-message-details-api }
 [Method, URI]
 
 ```
@@ -834,7 +851,8 @@ Content-Type: application/json
 | message.fallbackResultCode | String | 대체 발송 결과 코드 |
 | message.fallbackDateTime | dateTime | 대체 발송 요청 시간(YYYY-MM-DDThh:mm:ss.SSS±hh:mm) |
 
-### LMS 메시지 상세 조회 API
+<a id="query-lms-message-details-api"></a>
+### LMS 메시지 상세 조회 API { #query-lms-message-details-api }
 [Method, URI]
 
 ```
@@ -934,7 +952,8 @@ Content-Type: application/json
 | message.fallbackResultCode | String | 대체 발송 결과 코드 |
 | message.fallbackDateTime | dateTime | 대체 발송 요청 시간(YYYY-MM-DDThh:mm:ss.SSS±hh:mm) |
 
-### MMS 메시지 상세 조회 API
+<a id="query-mms-message-details-api"></a>
+### MMS 메시지 상세 조회 API { #query-mms-message-details-api }
 [Method, URI]
 
 ```
@@ -1045,7 +1064,8 @@ Content-Type: application/json
 | message.fallbackResultCode | String | 대체 발송 결과 코드 |
 | message.fallbackDateTime | dateTime | 대체 발송 요청 시간(YYYY-MM-DDThh:mm:ss.SSS±hh:mm) |
 
-### TEMPLATE 메시지 상세 조회 API
+<a id="query-template-message-details-api"></a>
+### TEMPLATE 메시지 상세 조회 API { #query-template-message-details-api }
 [Method, URI]
 
 ```
@@ -1144,9 +1164,11 @@ Content-Type: application/json
 | message.fallbackDateTime | dateTime | 대체 발송 요청 시간(YYYY-MM-DDThh:mm:ss.SSS±hh:mm) |
 
 
-## 리소스 API
+<a id="resource-api"></a>
+## 리소스 API { #resource-api }
 
-### 첨부파일 업로드 API
+<a id="upload-attachment-api"></a>
+### 첨부파일 업로드 API { #upload-attachment-api }
 [Method, URI]
 
 ```
@@ -1202,9 +1224,11 @@ Content-Type: multipart/form-data
 | header.isSuccessful | Boolean | 성공 여부 |
 
 
-## 버튼 유형
+<a id="button-type"></a>
+## 버튼 유형 { #button-type }
 
-### 대화방 열기
+<a id="open-chat-room"></a>
+### 대화방 열기 { #open-chat-room }
 
 ```json
 {
@@ -1227,7 +1251,8 @@ Content-Type: multipart/form-data
 | action.composeAction.composeTextMessage.phoneNumber | 메시지 수신 번호 | |
 | action.composeAction.composeTextMessage.text | 전송할 메시지 | 최대 100자 |
 
-### 복사하기
+<a id="copy"></a>
+### 복사하기 { #copy }
 
 ```json
 {
@@ -1247,7 +1272,8 @@ Content-Type: multipart/form-data
 | action.displayText | 버튼 명 | 최대 17자 |
 | action.clipboardAction.copyToClipboard.text | 클립보드로 복사할 내용 | 최대 200자 |
 
-### 전화 걸기
+<a id="make-a-call"></a>
+### 전화 걸기 { #make-a-call }
 
 ```json
 {
@@ -1267,7 +1293,8 @@ Content-Type: multipart/form-data
 | action.displayText | 버튼 명 | 최대 17자 |
 | action.dialerAction.dialPhoneNumber.phoneNumber | 전화 번호 | |
 
-### 지도 보여주기
+<a id="show-map"></a>
+### 지도 보여주기 { #show-map }
 
 ```json
 {
@@ -1295,7 +1322,8 @@ Content-Type: multipart/form-data
 | action.mapAction.showLocation.location.label | 위치 이름 | 최대 200자 |
 | action.mapAction.showLocation.fallbackUrl | 액션 실패 시 호출할 링크 | |
 
-### 지도 검색하기
+<a id="search-a-map"></a>
+### 지도 검색하기 { #search-a-map }
 
 ```json
 {
@@ -1319,7 +1347,8 @@ Content-Type: multipart/form-data
 | action.mapAction.showLocation.location.query | 검색 키워드 | 최대 200자 |
 | action.mapAction.showLocation.fallbackUrl | 해당 위치를 조회할 사이트 | |
 
-### 현재 위치 공유하기
+<a id="share-the-current-location"></a>
+### 현재 위치 공유하기 { #share-the-current-location }
 
 ```json
 {
@@ -1339,7 +1368,8 @@ Content-Type: multipart/form-data
 | action.displayText | 버튼 명 | 최대 17자 |
 | action.mapAction.requestLocationPush.currentLocation | 현재 위치 공유 여부 | 버튼의 기능을 정상적으로 사용하기 위해 해당 값은 true로 지정되어야 함 |
 
-### URL 연결하기
+<a id="connect-url"></a>
+### URL 연결하기 { #connect-url }
 
 ```json
 {
@@ -1359,7 +1389,8 @@ Content-Type: multipart/form-data
 | action.displayText | 버튼 명 | 최대 17자 |
 | action.urlAction.openUrl.url | 연결할 URL 주소 | |
 
-### 일정 등록하기
+<a id="register-a-schedule"></a>
+### 일정 등록하기 { #register-a-schedule }
 
 ```json
 {

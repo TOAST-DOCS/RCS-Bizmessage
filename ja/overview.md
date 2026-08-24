@@ -1,3 +1,5 @@
+<!-- pre-align:aligned sig=6a12872db115 -->
+
 <style>
     .custom-table thead {
         background-color: #FAFAFA;
@@ -12,12 +14,14 @@
     }
 </style>
 
-## Notification > RCS Bizmessage > 概要
+<a id="notification-rcs-bizmessage-overview"></a>
+## Notification > RCS Bizmessage > 概要 { #notification-rcs-bizmessage-overview }
 
 RCS BizmessageサービスはRCS Bizmessage送信およびブランド、テンプレート管理機能を提供するサービスです。 RCS Bizmessageサービスを通じて、ユーザーは様々なタイプのメッセージを送信し、企業と顧客間の接続のためのブランド情報を管理し、提供できます。
 簡単な連携のためのREST APIを提供します。
 
-## 主な機能
+<a id="main-features"></a>
+## 主な機能 { #main-features }
 
 * 豊富な情報のメッセージ送信
     * SMS最大100文字、 LMS/MMS最大1300文字入力可能で、MMS添付ファイルは最大6個まで入力可能です。    
@@ -29,7 +33,8 @@ RCS BizmessageサービスはRCS Bizmessage送信およびブランド、テン�
     * 本人認証手続きを通じて認証された事業者登録情報でRCS Biz Centerに登録したブランド、テンプレート情報を連動させることができます。
     * 顧客のアプリケーションで使用できるRCS Bizmessage送信機能と照会REST APIを提供します。
 
-## RCS送信サポートタイプ
+<a id="rcs-delivery-supported-types"></a>
+## RCS送信サポートタイプ { #rcs-delivery-supported-types }
 
 <table class="custom-table" style="text-align: center">
   <thead>
@@ -94,7 +99,8 @@ RCS BizmessageサービスはRCS Bizmessage送信およびブランド、テン�
   </tbody>
 </table>
 
-## サービス対象
+<a id="service-targets"></a>
+## サービス対象 { #service-targets }
 
 * 豊富な情報とユーザーアクションを含むメッセージを送信したい顧客
 * 大量のRCS Bizmessageを送信したい顧客
