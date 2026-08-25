@@ -1,14 +1,21 @@
-## Notification > RCS Bizmessage > API v1.0 Guide
+<!-- pre-align:aligned sig=d6fa7a1e51ab -->
 
-## Overview of v1.0 API
-### [API Domain]
+<a id="notification-rcs-bizmessage-api-v10-guide"></a>
+## Notification > RCS Bizmessage > API v1.0 Guide { #notification-rcs-bizmessage-api-v10-guide }
+
+<a id="overview-of-v10-api"></a>
+## Overview of v1.0 API { #overview-of-v10-api }
+<a id="api-domain"></a>
+### [API Domain] { #api-domain }
 ```
 https://rcs-bizmessage.api.nhncloudservice.com
 ```
 
-## Send Messages
+<a id="send-messages"></a>
+## Send Messages { #send-messages }
 
-### Send SMS Type
+<a id="send-sms-type"></a>
+### Send SMS Type { #send-sms-type }
 [Method, URI]
 
 ```
@@ -87,7 +94,8 @@ Content-Type: application/json
 | header.isSuccessful | Boolean | Successful or not |
 
 
-### Send LMS Type
+<a id="send-lms-type"></a>
+### Send LMS Type { #send-lms-type }
 [Method, URI]
 
 ```
@@ -167,7 +175,8 @@ Content-Type: application/json
 | header.resultMessage | String | Result message |
 | header.isSuccessful | Boolean | Successful or not |
 
-### Send LMS Type
+<a id="send-messages-send-lms-type"></a>
+### Send LMS Type { #send-messages-send-lms-type }
 [Method, URI]
 
 ```
@@ -261,7 +270,8 @@ Content-Type: application/json
 | header.resultMessage | String | Result message |
 | header.isSuccessful | Boolean | Successful or not |
 
-### Send Template Type
+<a id="send-template-type"></a>
+### Send Template Type { #send-template-type }
 [Method, URI]
 
 ```
@@ -337,9 +347,11 @@ Content-Type: application/json
 | header.resultMessage | String | Result message |
 | header.isSuccessful | Boolean | Successful or not |
 
-## Query Messages
+<a id="query-messages"></a>
+## Query Messages { #query-messages }
 
-### Query SMS Message API
+<a id="query-sms-message-api"></a>
+### Query SMS Message API { #query-sms-message-api }
 [Method, URI]
 ```
 GET /rcs/v1.0/messages/sms
@@ -438,7 +450,8 @@ Content-Type: application/json
 | data.fallbackStatus | String | Alternative Delivery Status<br><ul><li>Not eligible for alternative delivery (NONE)</li><li>Alternative delivery in progress</li><li>Alternative delivery completed</li><li>Alternative delivery failed</li></ul>  |
 | data.fallbackDateTime | dateTime | Alternative Delivery Request Time (YYYY-MM-DDThh:mm:ss.SSS±HH) |
 
-### Query LMS Message API
+<a id="query-lms-message-api"></a>
+### Query LMS Message API { #query-lms-message-api }
 [Method, URI]
 
 ```
@@ -537,7 +550,8 @@ Content-Type: application/json
 | data.fallbackStatus | String | Alternative Delivery Status<br><ul><li>Not eligible for alternative delivery (NONE)</li><li>Alternative delivery in progress</li><li>Alternative delivery completed</li><li>Alternative delivery failed</li></ul>  |
 | data.fallbackDateTime | dateTime | Alternative Delivery Request Time (YYYY-MM-DDThh:mm:ss.SSS±HH) |
 
-### Query MMS Message API
+<a id="query-mms-message-api"></a>
+### Query MMS Message API { #query-mms-message-api }
 [Method, URI]
 
 ```
@@ -636,7 +650,8 @@ Content-Type: application/json
 | data.fallbackStatus | String | Alternative Delivery Status<br><ul><li>Not eligible for alternative delivery (NONE)</li><li>Alternative delivery in progress</li><li>Alternative delivery completed</li><li>Alternative delivery failed</li></ul>  |
 | data.fallbackDateTime | dateTime | Alternative Delivery Request Time (YYYY-MM-DDThh:mm:ss.SSS±HH) |
 
-### Query TEMPLATE Message API
+<a id="query-template-message-api"></a>
+### Query TEMPLATE Message API { #query-template-message-api }
 [Method, URI]
 
 ```
@@ -735,8 +750,10 @@ Content-Type: application/json
 | data.fallbackStatus | String | Alternative Delivery Status<br><ul><li>Not eligible for alternative delivery (NONE)</li><li>Alternative delivery in progress</li><li>Alternative delivery completed</li><li>Alternative delivery failed</li></ul>  |
 | data.fallbackDateTime | dateTime | Alternative Delivery Request Time (YYYY-MM-DDThh:mm:ss.SSS±HH) |
 
-## Query Message Details
-### Query SMS Message Details API
+<a id="query-message-details"></a>
+## Query Message Details { #query-message-details }
+<a id="query-sms-message-details-api"></a>
+### Query SMS Message Details API { #query-sms-message-details-api }
 [Method, URI]
 
 ```
@@ -834,7 +851,8 @@ Content-Type: application/json
 | message.fallbackResultCode | String | Alternative Delivery Result Code |
 | message.fallbackDateTime | dateTime | Alternative Delivery Request Time (YYYY-MM-DDThh:mm:ss.SSS±HH) |
 
-### Query LMS Message Details API
+<a id="query-lms-message-details-api"></a>
+### Query LMS Message Details API { #query-lms-message-details-api }
 [Method, URI]
 
 ```
@@ -933,7 +951,8 @@ Content-Type: application/json
 | message.fallbackResultCode | String | Alternative Delivery Result Code |
 | message.fallbackDateTime | dateTime | Alternative Delivery Request Time (YYYY-MM-DDThh:mm:ss.SSS±HH) |
 
-### Query MMS Message Details API
+<a id="query-mms-message-details-api"></a>
+### Query MMS Message Details API { #query-mms-message-details-api }
 [Method, URI]
 
 ```
@@ -1044,7 +1063,8 @@ Content-Type: application/json
 | message.fallbackResultCode | String | Alternative Delivery Result Code |
 | message.fallbackDateTime | dateTime | Alternative Delivery Request Time (YYYY-MM-DDThh:mm:ss.SSS±HH) |
 
-### Query TEMPLATE Message Details API
+<a id="query-template-message-details-api"></a>
+### Query TEMPLATE Message Details API { #query-template-message-details-api }
 [Method, URI]
 
 ```
@@ -1143,9 +1163,11 @@ Content-Type: application/json
 | message.fallbackDateTime | dateTime | Alternative Delivery Request Time (YYYY-MM-DDThh:mm:ss.SSS±HH) |
 
 
-## Resource API
+<a id="resource-api"></a>
+## Resource API { #resource-api }
 
-### Upload Attachment API
+<a id="upload-attachment-api"></a>
+### Upload Attachment API { #upload-attachment-api }
 [Method, URI]
 
 ```
@@ -1201,9 +1223,11 @@ Content-Type: multipart/form-data
 | header.isSuccessful | Boolean | Successful or not |
 
 
-## Button Type
+<a id="button-type"></a>
+## Button Type { #button-type }
 
-### Open Chat Room
+<a id="open-chat-room"></a>
+### Open Chat Room { #open-chat-room }
 
 ```json
 {
@@ -1226,7 +1250,8 @@ Content-Type: multipart/form-data
 | action.composeAction.composeTextMessage.phoneNumber | Message recipient number | |
 | action.composeAction.composeTextMessage.text | Message to be sent | Max. 100 characters, |
 
-### Copy
+<a id="copy"></a>
+### Copy { #copy }
 
 ```json
 {
@@ -1246,7 +1271,8 @@ Content-Type: multipart/form-data
 | action.displayText | Button name | Max. 17 characters |
 | action.clipboardAction.copyToClipboard.text | Content to copy to clipboard | Max. 200 characters |
 
-### Make a Call
+<a id="make-a-call"></a>
+### Make a Call { #make-a-call }
 
 ```json
 {
@@ -1266,7 +1292,8 @@ Content-Type: multipart/form-data
 | action.displayText | Button name | Max. 17 characters |
 | action.dialerAction.dialPhoneNumber.phoneNumber | Phone number | |
 
-### Show Map
+<a id="show-map"></a>
+### Show Map { #show-map }
 
 ```json
 {
@@ -1294,7 +1321,8 @@ Content-Type: multipart/form-data
 | action.mapAction.showLocation.location.label | Location name | Max. 200 characters |
 | action.mapAction.showLocation.fallbackUrl | Link to call when action fails | |
 
-### Search a Map
+<a id="search-a-map"></a>
+### Search a Map { #search-a-map }
 
 ```json
 {
@@ -1318,7 +1346,8 @@ Content-Type: multipart/form-data
 | action.mapAction.showLocation.location.query | Search keyword | Max. 200 characters |
 | action.mapAction.showLocation.fallbackUrl | Website to query the location | |
 
-### Share the Current Location
+<a id="share-the-current-location"></a>
+### Share the Current Location { #share-the-current-location }
 
 ```json
 {
@@ -1338,7 +1367,8 @@ Content-Type: multipart/form-data
 | action.displayText | Button name | Max. 17 characters |
 | action.mapAction.requestLocationPush.currentLocation | Whether to share the current location | In order to use the feature of the button normally, the corresponding value must be set to true. |
 
-### Connect URL
+<a id="connect-url"></a>
+### Connect URL { #connect-url }
 
 ```json
 {
@@ -1358,7 +1388,8 @@ Content-Type: multipart/form-data
 | action.displayText | Button name | Max. 17 characters |
 | action.urlAction.openUrl.url | URL address to connect | |
 
-### Register a Schedule
+<a id="register-a-schedule"></a>
+### Register a Schedule { #register-a-schedule }
 
 ```json
 {

@@ -1,14 +1,21 @@
-## Notification > RCS Bizmessage > API v1.0 Guide
+<!-- pre-align:aligned sig=d6fa7a1e51ab -->
 
-## v1.0 API紹介
-### [APIドメイン]
+<a id="notification-rcs-bizmessage-api-v10-guide"></a>
+## Notification > RCS Bizmessage > API v1.0 Guide { #notification-rcs-bizmessage-api-v10-guide }
+
+<a id="overview-of-v10-api"></a>
+## v1.0 API紹介 { #overview-of-v10-api }
+<a id="api-domain"></a>
+### [APIドメイン] { #api-domain }
 ```
 https://rcs-bizmessage.api.nhncloudservice.com
 ```
 
-## メッセージ送信
+<a id="send-messages"></a>
+## メッセージ送信 { #send-messages }
 
-### SMSタイプ送信
+<a id="send-sms-type"></a>
+### SMSタイプ送信 { #send-sms-type }
 [Method, URI]
 
 ```
@@ -87,7 +94,8 @@ Content-Type: application/json
 | header.isSuccessful | Boolean | 成否 |
 
 
-### LMSタイプ送信
+<a id="send-lms-type"></a>
+### LMSタイプ送信 { #send-lms-type }
 [Method, URI]
 
 ```
@@ -167,7 +175,8 @@ Content-Type: application/json
 | header.resultMessage | String | 結果メッセージ |
 | header.isSuccessful | Boolean | 成否 |
 
-### MMSタイプ送信
+<a id="send-messages-send-lms-type"></a>
+### MMSタイプ送信 { #send-messages-send-lms-type }
 [Method, URI]
 f
 ```
@@ -261,7 +270,8 @@ Content-Type: application/json
 | header.resultMessage | String | 結果メッセージ |
 | header.isSuccessful | Boolean | 成否 |
 
-### Templateタイプ送信
+<a id="send-template-type"></a>
+### Templateタイプ送信 { #send-template-type }
 [Method, URI]
 
 ```
@@ -333,9 +343,11 @@ Content-Type: application/json
 | header.resultMessage | String | 結果メッセージ |
 | header.isSuccessful | Boolean | 成否 |
 
-## メッセージ照会
+<a id="query-messages"></a>
+## メッセージ照会 { #query-messages }
 
-### SMSメッセージ照会API
+<a id="query-sms-message-api"></a>
+### SMSメッセージ照会API { #query-sms-message-api }
 [Method, URI]
 ```
 GET /rcs/v1.0/messages/sms
@@ -434,7 +446,8 @@ Content-Type: application/json
 | data.fallbackStatus | String | 代替送信ステータス<br><ul><li>代替送信対象ではない(NONE)</li><li>代替送信中(IN_PROGRESS)</li><li>代替送信完了(COMPLETE)</li><li>代替送信失敗(SEND_FAILED)</li></ul>  |
 | data.fallbackDateTime | dateTime | 代替送信リクエスト時間(YYYY-MM-DDThh:mm:ss.SSS±hh:mm) |
 
-### LMSメッセージ照会API
+<a id="query-lms-message-api"></a>
+### LMSメッセージ照会API { #query-lms-message-api }
 [Method, URI]
 
 ```
@@ -533,7 +546,8 @@ Content-Type: application/json
 | data.fallbackStatus | String | 代替送信ステータス<br><ul><li>代替送信対象ではない(NONE)</li><li>代替送信中(IN_PROGRESS)</li><li>代替送信完了(COMPLETE)</li><li>代替送信失敗(SEND_FAILED)</li></ul>  |
 | data.fallbackDateTime | dateTime | 代替送信リクエスト時間(YYYY-MM-DDThh:mm:ss.SSS±hh:mm) |
 
-### MMSメッセージ照会API
+<a id="query-mms-message-api"></a>
+### MMSメッセージ照会API { #query-mms-message-api }
 [Method, URI]
 
 ```
@@ -632,7 +646,8 @@ Content-Type: application/json
 | data.fallbackStatus | String | 代替送信ステータス<br><ul><li>代替送信対象ではない(NONE)</li><li>代替送信中(IN_PROGRESS)</li><li>代替送信完了(COMPLETE)</li><li>代替送信失敗(SEND_FAILED)</li></ul>  |
 | data.fallbackDateTime | dateTime | 代替送信リクエスト時間(YYYY-MM-DDThh:mm:ss.SSS±hh:mm) |
 
-### TEMPLATEメッセージ照会API
+<a id="query-template-message-api"></a>
+### TEMPLATEメッセージ照会API { #query-template-message-api }
 [Method, URI]
 
 ```
@@ -731,8 +746,10 @@ Content-Type: application/json
 | data.fallbackStatus | String | 代替送信ステータス<br><ul><li>代替送信対象ではない(NONE)</li><li>代替送信中(IN_PROGRESS)</li><li>代替送信完了(COMPLETE)</li><li>代替送信失敗(SEND_FAILED)</li></ul>  |
 | data.fallbackDateTime | dateTime | 代替送信リクエスト時間(YYYY-MM-DDThh:mm:ss.SSS±hh:mm) |
 
-## メッセージ詳細照会
-### SMSメッセージ詳細照会API
+<a id="query-message-details"></a>
+## メッセージ詳細照会 { #query-message-details }
+<a id="query-sms-message-details-api"></a>
+### SMSメッセージ詳細照会API { #query-sms-message-details-api }
 [Method, URI]
 
 ```
@@ -829,7 +846,8 @@ Content-Type: application/json
 | message.fallbackResultCode | String | 代替送信結果コード |
 | message.fallbackDateTime | dateTime | 代替送信リクエスト時間(YYYY-MM-DDThh:mm:ss.SSS±hh:mm) |
 
-### LMSメッセージ詳細照会API
+<a id="query-lms-message-details-api"></a>
+### LMSメッセージ詳細照会API { #query-lms-message-details-api }
 [Method, URI]
 
 ```
@@ -928,7 +946,8 @@ Content-Type: application/json
 | message.fallbackResultCode | String | 代替送信結果コード |
 | message.fallbackDateTime | dateTime | 代替送信リクエスト時間(YYYY-MM-DDThh:mm:ss.SSS±hh:mm) |
 
-### MMSメッセージ詳細照会API
+<a id="query-mms-message-details-api"></a>
+### MMSメッセージ詳細照会API { #query-mms-message-details-api }
 [Method, URI]
 
 ```
@@ -1038,7 +1057,8 @@ Content-Type: application/json
 | message.fallbackResultCode | String | 代替送信結果コード |
 | message.fallbackDateTime | dateTime | 代替送信リクエスト時間(YYYY-MM-DDThh:mm:ss.SSS±hh:mm) |
 
-### TEMPLATEメッセージ詳細照会API
+<a id="query-template-message-details-api"></a>
+### TEMPLATEメッセージ詳細照会API { #query-template-message-details-api }
 [Method, URI]
 
 ```
@@ -1136,9 +1156,11 @@ Content-Type: application/json
 | message.fallbackDateTime | dateTime | 代替送信リクエスト時間(YYYY-MM-DDThh:mm:ss.SSS±hh:mm) |
 
 
-## リソースAPI
+<a id="resource-api"></a>
+## リソースAPI { #resource-api }
 
-### 添付ファイルアップロードAPI
+<a id="upload-attachment-api"></a>
+### 添付ファイルアップロードAPI { #upload-attachment-api }
 [Method, URI]
 
 ```
@@ -1194,9 +1216,11 @@ Content-Type: multipart/form-data
 | header.isSuccessful | Boolean | 成否 |
 
 
-## ボタンタイプ
+<a id="button-type"></a>
+## ボタンタイプ { #button-type }
 
-### チャットルームを開く
+<a id="open-chat-room"></a>
+### チャットルームを開く { #open-chat-room }
 
 ```json
 {
@@ -1219,7 +1243,8 @@ Content-Type: multipart/form-data
 | action.composeAction.composeTextMessage.phoneNumber | メッセージ受信番号 | |
 | action.composeAction.composeTextMessage.text | 転送するメッセージ | 最大100文字 |
 
-### コピーする
+<a id="copy"></a>
+### コピーする { #copy }
 
 ```json
 {
@@ -1239,7 +1264,8 @@ Content-Type: multipart/form-data
 | action.displayText | ボタン名 | 最大17文字 |
 | action.clipboardAction.copyToClipboard.text | クリップボードにコピーする内容 | 最大200文字 |
 
-### 電話をかける
+<a id="make-a-call"></a>
+### 電話をかける { #make-a-call }
 
 ```json
 {
@@ -1259,7 +1285,8 @@ Content-Type: multipart/form-data
 | action.displayText | ボタン名 | 最大17文字 |
 | action.dialerAction.dialPhoneNumber.phoneNumber | 電話番号 | |
 
-### マップを表示する
+<a id="show-map"></a>
+### マップを表示する { #show-map }
 
 ```json
 {
@@ -1287,7 +1314,8 @@ Content-Type: multipart/form-data
 | action.mapAction.showLocation.location.label | 位置名 | 最大200文字 |
 | action.mapAction.showLocation.fallbackUrl | アクション失敗時に呼び出すリンク | |
 
-### マップを検索する
+<a id="search-a-map"></a>
+### マップを検索する { #search-a-map }
 
 ```json
 {
@@ -1311,7 +1339,8 @@ Content-Type: multipart/form-data
 | action.mapAction.showLocation.location.query | 検索キーワード | 最大200文字 |
 | action.mapAction.showLocation.fallbackUrl | 該当位置を照会するサイト | |
 
-### 現在位置を共有する
+<a id="share-the-current-location"></a>
+### 現在位置を共有する { #share-the-current-location }
 
 ```json
 {
@@ -1331,7 +1360,8 @@ Content-Type: multipart/form-data
 | action.displayText | ボタン名 | 最大17文字 |
 | action.mapAction.requestLocationPush.currentLocation | 現在位置共有の有無 | ボタンの機能を正常に使用するために当該値はtrueに指定する必要があります |
 
-### URL接続する
+<a id="connect-url"></a>
+### URL接続する { #connect-url }
 
 ```json
 {
@@ -1351,7 +1381,8 @@ Content-Type: multipart/form-data
 | action.displayText | ボタン名 | 最大17文字 |
 | action.urlAction.openUrl.url | 接続するURLアドレス | |
 
-### 予定を登録する
+<a id="register-a-schedule"></a>
+### 予定を登録する { #register-a-schedule }
 
 ```json
 {
