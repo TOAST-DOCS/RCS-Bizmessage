@@ -294,6 +294,8 @@ Content-Type: application/json
 | chatbotId | String | O | 発信番号 | 空白不可、入力値例: 01012345678, +821012345678 |
 | messagebaseId  | String | O | テンプレートID | |
 | recipientNumber | String | O | 受信番号 |  |
+| isAd | Boolean | X | 広告送信の有無 | デフォルト値: false、イメージテンプレートの場合にのみ広告送信が可能 |
+| unsubscribeNumber | String | X | 受信拒否番号 | 広告の有無がtrueの場合は必須 |
 | body | String | X | 本文 | 最大90文字、 Freeテンプレートの場合にのみ該当 |
 | templateParameter | Map | X | 日本語識別子key, value |
 | isFallback | Boolean | X | 代替送信の有無 |  |
@@ -840,6 +842,7 @@ Content-Type: application/json
 | message.telecom | String | サービスプロバイダー(skt, kt, lgu) |
 | message.sendDateTime | dateTime | リクエスト時間(YYYY-MM-DDThh:mm:ss.SSS±hh:mm) | 
 | message.receiveDateTime | dateTime | 受信時間(YYYY-MM-DDThh:mm:ss.SSS±hh:mm) |
+| message.resultDateTime | dateTime | 結果保存時間(YYYY-MM-DDThh:mm:ss.SSS±hh:mm) |
 | message.isFallback | Boolean | 代替送信かどうか |
 | message.fallbackStatus | String | 代替送信ステータス<br><ul><li>代替送信対象ではない(NONE)</li><li>代替送信中(IN_PROGRESS)</li><li>代替送信完了(COMPLETE)</li><li>代替送信失敗(SEND_FAILED)</li></ul>  |
 | message.fallbackRequestId | String | 代替送信SMSリクエストID |
@@ -940,6 +943,7 @@ Content-Type: application/json
 | message.telecom | String | サービスプロバイダー(skt, kt, lgu) |
 | message.sendDateTime | dateTime | リクエスト時間(YYYY-MM-DDThh:mm:ss.SSS±hh:mm) | 
 | message.receiveDateTime | dateTime | 受信時間(YYYY-MM-DDThh:mm:ss.SSS±hh:mm) |
+| message.resultDateTime | dateTime | 結果保存時間(YYYY-MM-DDThh:mm:ss.SSS±hh:mm) |
 | message.isFallback | Boolean | 代替送信かどうか |
 | message.fallbackStatus | String | 代替送信ステータス<br><ul><li>代替送信対象ではない(NONE)</li><li>代替送信中(IN_PROGRESS)</li><li>代替送信完了(COMPLETE)</li><li>代替送信失敗(SEND_FAILED)</li></ul>  |
 | message.fallbackRequestId | String | 代替送信SMSリクエストID |
@@ -1051,6 +1055,7 @@ Content-Type: application/json
 | message.telecom | String | サービスプロバイダー(skt, kt, lgu) |
 | message.sendDateTime | dateTime | リクエスト時間(YYYY-MM-DDThh:mm:ss.SSS±hh:mm) | 
 | message.receiveDateTime | dateTime | 受信時間(YYYY-MM-DDThh:mm:ss.SSS±hh:mm) |
+| message.resultDateTime | dateTime | 結果保存時間(YYYY-MM-DDThh:mm:ss.SSS±hh:mm) |
 | message.isFallback | Boolean | 代替送信かどうか |
 | message.fallbackStatus | String | 代替送信ステータス<br><ul><li>代替送信対象ではない(NONE)</li><li>代替送信中(IN_PROGRESS)</li><li>代替送信完了(COMPLETE)</li><li>代替送信失敗(SEND_FAILED)</li></ul>  |
 | message.fallbackRequestId | String | 代替送信SMSリクエストID |
@@ -1149,6 +1154,7 @@ Content-Type: application/json
 | message.telecom | String | サービスプロバイダー(skt, kt, lgu) |
 | message.sendDateTime | dateTime | リクエスト時間(YYYY-MM-DDThh:mm:ss.SSS±hh:mm) | 
 | message.receiveDateTime | dateTime | 受信時間(YYYY-MM-DDThh:mm:ss.SSS±hh:mm) |
+| message.resultDateTime | dateTime | 結果保存時間(YYYY-MM-DDThh:mm:ss.SSS±hh:mm) |
 | message.isFallback | Boolean | 代替送信かどうか |
 | message.fallbackStatus | String | 代替送信ステータス<br><ul><li>代替送信対象ではない(NONE)</li><li>代替送信中(IN_PROGRESS)</li><li>代替送信完了(COMPLETE)</li><li>代替送信失敗(SEND_FAILED)</li></ul>  |
 | message.fallbackRequestId | String | 代替送信SMSリクエストID |
