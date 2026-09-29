@@ -15,7 +15,7 @@
 <a id="august-27-2024-feature-updates"></a>
 #### 기능 개선/변경
 * [API] 발송 API 요청 시 수신자 번호 형식에 대한 검증 강화
-  * 자세한 내용은 [[API 가이드](./api-guide/#_1)]를 참고하세요.
+  * 자세한 내용은 [[API 가이드](./api-guide/#notification-rcs-bizmessage-api-v10-guide)]를 참고하세요.
 
 <a id="april-23-2024"></a>
 ### 2024. 04. 23. { #april-23-2024 }
@@ -43,7 +43,7 @@
 #### 기능 개선/변경
 * [API] 필수 템플릿 파라미터 누락 시 오류 메시지 추가
     * 필수 템플릿 파라미터 누락 시 오류 코드가 추가되었습니다.
-    * 자세한 내용은 [[결과코드](./result-code/#_1)]에서 결과코드 **-4024**를 참고하세요.
+    * 자세한 내용은 [[결과코드](./result-code/#notification-rcs-bizmessage-result-code)]에서 결과코드 **-4024**를 참고하세요.
 
 <a id="november-14-2023"></a>
 ### 2023. 11. 14. { #november-14-2023 }

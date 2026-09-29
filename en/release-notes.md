@@ -15,7 +15,7 @@
 <a id="august-27-2024-feature-updates"></a>
 #### Feature Updates
 * [API] Enhanced validation of recipient number formats when the send API request is made
-  * For more information, see [[API Guide](./api-guide/#_1)].
+  * For more information, see [[API Guide](./api-guide/#show-map)].
 
 <a id="april-23-2024"></a>
 ### April 23, 2024 { #april-23-2024 }
@@ -43,7 +43,7 @@
 #### Feature Updates
 * [API] Added error messages when required template parameters are omitted
     * Added error codes when required template parameters are omitted.
-    * For more information, see the result code **4024** from [[Result Code](./result-code/#_1)].
+    * For more information, see the result code **4024** from [[Result Code](./result-code/#notification-rcs-bizmessage-result-code)].
 
 <a id="november-14-2023"></a>
 ### November 14, 2023. { #november-14-2023 }
