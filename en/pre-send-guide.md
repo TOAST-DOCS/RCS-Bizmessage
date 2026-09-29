@@ -18,7 +18,7 @@ To use the RCS Bizmessage service, you have to register your brand after signing
 
 <a id="set-up-a-brand-agency"></a>
 ### Set up a Brand Agency { #set-up-a-brand-agency }
-After completing the RCS brand approval, set the agency to '엔이치엔클라우드'.
+After completing the RCS brand approval, set the agency to 'NHN Cloud'.
 
 1. In RCS Biz Center, go to **Business Dashboard > Brand Dashboard > Brand Operations Management**.
 
