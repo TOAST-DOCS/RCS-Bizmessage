@@ -60,7 +60,7 @@
 #### 기능 추가
 * [API] 상세 조회 API 추가
     * 모든 메시지 타입(SMS/LMS/MMS/Template)에 대하여 특정 메시지의 상세 정보를 조회할 수 있는 API가 추가되었습니다.
-    * 자세한 내용은 [[API 가이드](./api-guide/#_3)]를 참고하세요.
+    * 자세한 내용은 [[API 가이드](./api-guide/#overview-of-v10-api)]를 참고하세요.
 
 <a id="august-17-2023"></a>
 ### 2023. 08. 17. { #august-17-2023 }
