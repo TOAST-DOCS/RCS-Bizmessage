@@ -60,7 +60,7 @@
 #### Added Features
 * [API] Added Query Details API
     * Added the API to query detailed information of a specific message for all message types (SMS/LMS/MMS/Template).
-    * For more information, refer to [[API Guide](./api-guide/#resource-api)].
+    * For more information, refer to [[API Guide](./api-guide/#query-message-details)].
 
 <a id="august-17-2023"></a>
 ### August 17, 2023 { #august-17-2023 }

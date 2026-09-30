@@ -244,7 +244,7 @@ RCS Biz Centerでテンプレートを登録する必要があります。事前
 ### 080受信拒否番号照会 { #retrieve-080-deny-to-receive-number }
 * 広告性情報を送信する場合、受信者が無料で受信を拒否したり、受信同意を取り消すことができるように<span style="color:red">無料受信拒否方法を必ず記載</span>する必要があります。
 * SMSサービスに登録された080受信拒否番号を選択して送信および照会できます。
-* 080受信拒否番号の加入方法は[080受信拒否設定](#retrieve-080-deny-to-receive-number)で確認可能です。
+* 080受信拒否番号の加入方法は[080受信拒否設定](/Notification/SMS/ja/console-guide/#setting-for-rejection-of-receiving-080-numbers)で確認可能です。
 
 <a id="set-up-advertising-message"></a>
 ### 広告性メッセージ設定 { #set-up-advertising-message }

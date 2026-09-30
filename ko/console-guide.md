@@ -246,7 +246,7 @@ RCS Biz Center에서 템플릿을 등록해야 합니다. 사전 등록 사항�
 ### 080 수신거부 번호 조회 { #retrieve-080-deny-to-receive-number }
 * 광고성 정보 전송 시 수신자가 무료로 수신을 거부하거나 수신 동의를 철회할 수 있도록 <span style="color:red">무료 수신거부 방법을 반드시 기재</span>해야 합니다.
 * SMS 서비스에 등록된 080 수신거부 번호를 선택해 발송 및 조회할 수 있습니다.
-* 080 수신거부 번호 가입 방법은 [080 수신거부 설정](#retrieve-080-deny-to-receive-number)에서 확인 가능합니다.
+* 080 수신거부 번호 가입 방법은 [080 수신거부 설정](/Notification/SMS/ko/console-guide/#setting-for-rejection-of-receiving-080-numbers)에서 확인 가능합니다.
 
 <a id="set-up-advertising-message"></a>
 ### 광고성 메시지 설정 { #set-up-advertising-message }

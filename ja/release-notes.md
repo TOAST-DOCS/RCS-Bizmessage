@@ -60,7 +60,7 @@
 #### 機能追加
 * [API]詳細照会API追加
     * すべてのメッセージタイプ(SMS/LMS/MMS/Template)に対して、特定のメッセージの詳細情報を照会できるAPIが追加されました。
-    * 詳細は[[APIガイド ](./api-guide/#overview-of-v10-api)] を参照してください。
+    * 詳細は[[APIガイド ](./api-guide/#query-message-details)] を参照してください。
 
 <a id="august-17-2023"></a>
 ### 2023. 08. 17. { #august-17-2023 }
