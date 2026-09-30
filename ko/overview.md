@@ -86,7 +86,7 @@ RCS Bizmessage 서비스는 RCS Bizmessage 발송 및 브랜드, 템플릿 관�
       <td>2개(카드당)</td>
     </tr>
     <tr>
-      <td><a href="./service-policy/">지원포맷</a></td>
+      <td><a href="../service-policy/">지원포맷</a></td>
       <td>1개</td>
       <td>1개</td>
       <td>4개</td>
