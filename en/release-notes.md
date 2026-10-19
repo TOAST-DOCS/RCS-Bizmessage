@@ -15,7 +15,7 @@
 <a id="august-27-2024-feature-updates"></a>
 #### Feature Updates
 * [API] Enhanced validation of recipient number formats when the send API request is made
-  * For more information, see [[API Guide](./api-guide/#show-map)].
+  * For more information, see [[API Guide](./api-guide/#notification-rcs-bizmessage-api-v10-guide)].
 
 <a id="april-23-2024"></a>
 ### April 23, 2024 { #april-23-2024 }
